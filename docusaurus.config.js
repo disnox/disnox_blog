@@ -12,7 +12,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'kuizuo',
   projectName: 'blog',
-  tagline: '记录所学知识，领略编程之美',
+  tagline: '星海横流, 岁月成碑',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',

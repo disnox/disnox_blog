@@ -147,10 +147,9 @@ const sidebars = {
       items: [
         'skill/go/go-environment-install',
         'skill/go/go-json-usage',
-        'skill/go/go-send-http-request',
         'skill/go/go-call-js',
-        'skill/go/go-concurrent',
         'skill/go/try-gin-framework'
+        
       ],
     },
     {
