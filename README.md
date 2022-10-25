@@ -1,6 +1,6 @@
 ## 个人博客
 
-<a href="https://kuizuo.cn">🖥 Online Preview</a>
+<a href="https://nox.cn">🖥 Online Preview</a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@
 ## Install
 
 ```sh
-git clone https://github.com/kuizuo/blog.git
+git clone https://github.com/nox/blog.git
 cd blog
 yarn
 yarn run start
@@ -50,4 +50,4 @@ yarn run build
 
 ## License
 
-[MIT licensed](https://github.com/kuizuo/blog/blob/main/LICENSE).
+[MIT licensed](https://github.com/nox/blog/blob/main/LICENSE).

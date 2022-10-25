@@ -7,10 +7,10 @@ const announcementBarContent = `<span>新增文章 <a href='/request-protocol-sc
 const config = {
   title: '尚宇的小站',
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'https://www.disnox.top/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'nox',
   projectName: 'blog',
   tagline: '星海横流, 岁月成碑',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -65,7 +65,7 @@ const config = {
             },
             {
               label: '前端示例',
-              to: 'https://example.kuizuo.cn',
+              to: 'https://www.disnox.top/',
             },
           ],
         },
@@ -79,19 +79,19 @@ const config = {
             },
             {
               label: 'API服务',
-              to: 'https://api.kuizuo.cn',
+              to: 'https://www.disnox.top/',
             },
             {
               label: 'JS代码还原',
-              to: 'https://js-de-obfuscator.vercel.app',
+              to: 'https://www.disnox.top/',
             },
             {
               label: 'CyberChef加密',
-              to: 'https://cipher.kuizuo.cn',
+              to: 'https://www.disnox.top/',
             },
             {
               label: '网盘',
-              to: 'https://pan.kuizuo.cn',
+              to: 'https://www.disnox.top/',
             },
           ],
         },
@@ -135,7 +135,7 @@ const config = {
             },
             {
               label: '前端示例',
-              to: 'https://example.kuizuo.cn',
+              to: 'https://www.disnox.top/',
             },
           ],
         },
@@ -148,15 +148,15 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
+              href: 'https://github.com/NOX369',
             },
             {
-              label: '掘金',
-              href: 'https://juejin.cn/user/1565318510545901',
+              label: 'CSDN',
+              href: 'https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343',
             },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/M8cVcjDxkz',
+              label: 'blibli',
+              href: 'https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0',
             }
           ],
         },
@@ -172,12 +172,12 @@ const config = {
             to: 'website',
           },
           {
-            html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`
+            html: `<a href="https://www.docusaurus.cn/docs/installation" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`
           },
         ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 尚宇 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2022 - PRESENT 尚宇 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -203,7 +203,7 @@ const config = {
     algolia: {
       appId: 'GV6YN1ODMO',
       apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      indexName: 'nox',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
@@ -214,13 +214,13 @@ const config = {
       config: {}
     },
     matomo: {
-      matomoUrl: 'https://matomo.kuizuo.cn/',
+      matomoUrl: 'https://matomo.nox.cn/',
       siteId: '1',
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
     },
     giscus: {
-      repo: 'kuizuo/blog',
+      repo: 'nox/blog',
       repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
       category: 'General',
       categoryId: 'DIC_kwDOF7NJDM4CPK95',
@@ -231,12 +231,13 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
-      twitter: 'https://twitter.com/kuizuo',
-      juejin: 'https://juejin.cn/user/1565318510545901',
-      csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+      github: 'https://github.com/NOX369',
+      blibli: 'https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0',
+      zhihu: 'https://www.zhihu.com/people/chui-zi-26-38',
+      csdn: 'https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343',
+      qq: 'http://wpa.qq.com/msgrd?v=3&uin=45273526&site=qq&menu=yes',
+      wx: 'http://n0i.cn/1DmzeU',
+      cloudmusic: 'https://music.163.com/#/user/home?id=3906202648',
     },
   },
   presets: [

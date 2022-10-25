@@ -1,6 +1,6 @@
 ---
-slug: kz-admin
-title: kz-admin后台管理系统
+slug: kz-admin33
+title: kz-admin33后台管理系统
 date: 2022-05-08
 authors: nox
 tags: [project, admin, vue, nest]

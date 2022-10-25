@@ -92,8 +92,8 @@ export function SocialLinks({animatedProps, ...props}) {
   const {themeConfig} = siteConfig;
   const socials = themeConfig.socials as {
     github: string;
-    twitter: string;
-    juejin: string;
+    blibli: string;
+    zhihu: string;
     csdn: string;
     qq: string;
     wx: string;
@@ -102,28 +102,25 @@ export function SocialLinks({animatedProps, ...props}) {
 
   return (
     <animated.div className={styles.social__links} style={animatedProps}>
-      <a href="./rss.xml" target="_blank">
-        <RssIcon />
+      <a href="https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0" target="_blank">
+        <BilibiliIcon />
       </a>
-      <a href={socials.github} target="_blank">
+      <a href="https://github.com/NOX369" target="_blank">
         <GithubIcon />
       </a>
-      <a href={socials.juejin} target="_blank">
-        <JuejinIcon />
+      <a href="https://www.zhihu.com/people/chui-zi-26-38" target="_blank">
+        <ZhihuIcon />
       </a>
-      {/* <a href='https://blog.csdn.net/kuizuo12' target='_blank'>
+      <a href="https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343" target="_blank">
         <CsdnIcon />
-      </a> */}
-      <a href={socials.qq} target="_blank">
+      </a>
+      <a href="http://wpa.qq.com/msgrd?v=3&uin=45273526&site=qq&menu=yes" target="_blank">
         <QqIcon />
       </a>
-      {/* <a href='' target='_blank'>
+      <a href="http://n0i.cn/1DmzeU" target="_blank">
         <WxIcon />
-      </a> */}
-      <a href={socials.twitter} target="_blank">
-        <TwitterIcon />
       </a>
-      <a href={socials.cloudmusic} target="_blank">
+      <a href="https://music.163.com/#/user/home?id=3906202648" target="_blank">
         <CloudMusicIcon />
       </a>
     </animated.div>

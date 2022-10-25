@@ -3,7 +3,7 @@ id: go-json-usage
 slug: /go-json-usage
 title: Go语言之json使用
 date: 2022-05-20
-authors: kuizuo
+authors: nox
 tags: [go, json]
 keywords: [go, json]
 ---
@@ -17,12 +17,12 @@ Go 语言中，官方提供了一个专门的包 `encoding/json`
 假设有这样一个 json 数据，我要将其解析为 go 结构体
 
 ```json
-{ "name": "kuizuo", "age": 20 }
+{ "name": "nox", "age": 20 }
 ```
 
 首先需要定义结构体，通常可以使用 json 转 go 结构体的[在线工具](https://mholt.github.io/json-to-go/)，如下图
 
-![json-to-go.png (1582×248) (kuizuo.cn)](https://img.kuizuo.cn/json-to-go.png)
+![json-to-go.png (1582×248) (nox.cn)](https://img.nox.cn/json-to-go.png)
 
 其转化代码如下
 
@@ -40,7 +40,7 @@ type Person struct {
 func main() {
   var p Person
 
-  jsonString := `{"name": "kuizuo", "age" : 20}`
+  jsonString := `{"name": "nox", "age" : 20}`
 
   err := json.Unmarshal([]byte(jsonString), &p)
 
@@ -78,7 +78,7 @@ type Person struct {
 func main() {
   var persons []Person
 
-  jsonString := `[{"name": "kuizuo", "age" : 20},{"name": "尚宇", "age" : 22}]`
+  jsonString := `[{"name": "nox", "age" : 20},{"name": "尚宇", "age" : 22}]`
 
   err := json.Unmarshal([]byte(jsonString), &persons)
 
@@ -102,7 +102,7 @@ func main() {
 
 ```json
 {
-  "user name": "kuizuo"
+  "user name": "nox"
 }
 ```
 
@@ -129,7 +129,7 @@ func main() {
         {
             "code": 200,
             "data": {
-                "username": "kuizuo",
+                "username": "nox",
                 "age": 20
             }
         }`
@@ -167,7 +167,7 @@ type any = interface{}
 ```json
 {
   "id": 1,
-  "username": "kuizuo",
+  "username": "nox",
   "hobby": ["敲代码", "吃饭", "睡觉"]
 }
 ```
@@ -197,7 +197,7 @@ type User struct {
 func main() {
   user := &User{
     ID:       1,
-    Username: "kuizuo",
+    Username: "nox",
     Hobby:    []string{"敲代码", "吃饭", "睡觉"},
   }
 
