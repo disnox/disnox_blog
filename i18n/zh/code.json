@@ -12,12 +12,12 @@
     "message": "Hello! 我是",
     "description": "hero greet"
   },
-  "愧怍": {
-    "message": "愧怍",
+  "尚宇": {
+    "message": "尚宇",
     "description": "my name"
   },
   "homepage.hero.text": {
-    "message": "在这里你能了解到各类实战开发的所遇到的问题，帮助你在学习的过程了解最新的技术栈，并希望我的个人经历对你有所启发。",
+    "message": "我在这里记录一些知识，以免遗忘，也希望对你有用，请随意浏览～",
     "description": "hero text"
   },
   "hompage.hero.text.blog": {

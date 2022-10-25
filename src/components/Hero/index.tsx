@@ -10,6 +10,8 @@ import HeroMain from './img/hero_main.svg';
 import GithubIcon from '@site/static/icons/github.svg';
 import JuejinIcon from '@site/static/icons/juejin.svg';
 import RssIcon from '@site/static/icons/rss.svg';
+import ZhihuIcon from '@site/static/icons/zhihu.svg';
+import BilibiliIcon from '@site/static/icons/bilibili.svg';
 import QqIcon from '@site/static/icons/qq.svg';
 import WxIcon from '@site/static/icons/wx.svg';
 import CsdnIcon from '@site/static/icons/csdn.svg';
@@ -39,14 +41,14 @@ function Hero() {
     <animated.div className={styles.hero}>
       <div className={styles.bloghome__intro}>
         <animated.div style={animatedTexts[0]} className={styles.hero_text}>
-          <Translate id="homepage.hero.greet">你好! 我是</Translate>
+          <Translate id="homepage.hero.greet">👋你好! 我是</Translate>
           <span className={styles.intro__name}>
-            <Translate id="homepage.hero.name">愧怍</Translate>
+            <Translate id="homepage.hero.name">尚宇</Translate>
           </span>
         </animated.div>
         <animated.p style={animatedTexts[1]}>
           <Translate id="homepage.hero.text">
-            {`在这里你能了解到各类实战开发的所遇到的问题，帮助你在学习的过程了解最新的技术栈，并希望我的个人经历对你有所启发。`}
+            {`我在这里记录一些知识，以免遗忘，也希望我的个人经历对你有所启发，请随意浏览～`}
           </Translate>
           <br />
           <Translate
@@ -68,7 +70,7 @@ function Hero() {
                 </Link>
               ),
             }}>
-            {`也许你需要{note}、{project}、{link}。`}
+            {`这里有{note}、{project}、{link}。`}
           </Translate>
         </animated.p>
         <SocialLinks animatedProps={animatedTexts[4]} />

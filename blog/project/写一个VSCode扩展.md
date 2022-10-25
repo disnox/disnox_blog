@@ -173,7 +173,7 @@ import * as vscode from 'vscode'
 import { exec } from 'child_process'
 
 export function activate(context: vscode.ExtensionContext) {
-  vscode.window.showInformationMessage('是否要打开愧怍的小站？', '是', '否', '不再提示').then((result) => {
+  vscode.window.showInformationMessage('是否要打开尚宇的小站？', '是', '否', '不再提示').then((result) => {
     if (result === '是') {
       exec(`start 'https://kuizuo.cn'`)
     } else if (result === '不再提示') {
@@ -224,7 +224,7 @@ export async function activate(context: vscode.ExtensionContext) {
   const key = 'kuizuoPlugin.showTip'
   const showTip = vscode.workspace.getConfiguration().get(key)
   if (showTip) {
-    const result = await vscode.window.showInformationMessage('是否要打开愧怍的小站？', '是', '否', '不再提示')
+    const result = await vscode.window.showInformationMessage('是否要打开尚宇的小站？', '是', '否', '不再提示')
     if (result === '是') {
       const commandLine = os.platform() === 'win32' ? `start https://kuizuo.cn` : `open https://kuizuo.cn`
       exec(commandLine)
@@ -369,7 +369,7 @@ export function deactivate() {}
   "activitybar": [
     {
       "id": "demo",
-      "title": "愧怍",
+      "title": "尚宇",
       "icon": "public/lollipop.svg"
     }
   ]

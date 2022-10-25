@@ -1,6 +1,6 @@
 exports.projects = [
   {
-    title: '愧怍的小站',
+    title: '尚宇的小站',
     description: '基于Docusaurus v2 静态网站生成器实现个人博客',
     preview: 'https://img.kuizuo.cn/blog.png',
     website: 'https://kuizuo.cn',
@@ -64,7 +64,7 @@ exports.projects = [
     tags: ['opensource', 'javascript'],
   },
   {
-    title: '愧怍在线工具',
+    title: '尚宇在线工具',
     description: '基于React与MUI组件库编写的在线工具网站',
     preview: 'https://img.kuizuo.cn/tools.png',
     website: 'http://tools.kuizuo.cn',

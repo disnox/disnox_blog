@@ -8,7 +8,7 @@ keywords: [blog, docusaurus, project]
 sticky: true
 ---
 
-博客地址: [愧怍的小站](https://kuizuo.cn/)
+博客地址: [尚宇的小站](https://kuizuo.cn/)
 
 源码地址：[kuizuo/blog](https://github.com/kuizuo/blog)
 
