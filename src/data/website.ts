@@ -86,14 +86,6 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.thosefree.com/',
         tags: [''],
       },
-      {
-        name: 'Hoppscotch',
-        desc: '开源 API 开发生态系统',
-        logo: 'https://hoppscotch/favicon.ico',
-        href: 'https://hoppscotch.io/',
-        tags: ['api'],
-      },
-
     ],
   },
   {
@@ -103,7 +95,7 @@ export const websiteData: WebsiteCategory[] = [
         name: '菜鸟教程',
         desc: '学的不仅是技术，更是梦想！',
         logo: 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/FD715D45-8A4B-4B77-BDA1-D75D7226AACB.jpeg-1609660318596',
-        href: 'https://code.visualstudio.com/',
+        href: 'https://www.runoob.com/',
         tags: ['教程'],
       },
       {
@@ -751,13 +743,6 @@ export const websiteData: WebsiteCategory[] = [
         logo: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-a90b5f95-90ba-4d30-a6a7-cd4d057327db/d23e842c-58fc-4574-998d-17fdc7811cc3.png',
         href: 'https://uniapp.dcloud.io/',
         tags: ['Vue', '小程序'],
-      },
-      {
-        name: 'Taro',
-        desc: 'Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用',
-        logo: 'https://taro-docs.jd.com/taro/img/taroLogo180.png',
-        href: 'https://taro.jd.com',
-        tags: ['前端', 'React', '小程序'],
       },
     ]
   },

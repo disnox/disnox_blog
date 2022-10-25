@@ -56,16 +56,12 @@ const config = {
               to: 'archive',
             },
             {
-              label: '笔记',
+              label: '技术笔记',
               to: 'docs/skill/',
             },
             {
-              label: '工具推荐',
+              label: '工作指南',
               to: 'docs/tools/',
-            },
-            {
-              label: '前端示例',
-              to: 'https://www.disnox.top/',
             },
           ],
         },
@@ -75,23 +71,23 @@ const config = {
           items: [
             {
               label: '在线代码',
-              to: 'liveCode',
+              to: 'https://c.runoob.com/compile/11/',
+            },
+            {
+              label: 'mdnice',
+              to: 'https://editor.mdnice.com/',
+            },
+            {
+              label: '立创EDA',
+              to: 'https://lceda.cn/',
+            },
+            {
+              label: '百度翻译',
+              to: 'https://fanyi.baidu.com/#en/zh/',
             },
             {
               label: 'API服务',
-              to: 'https://www.disnox.top/',
-            },
-            {
-              label: 'JS代码还原',
-              to: 'https://www.disnox.top/',
-            },
-            {
-              label: 'CyberChef加密',
-              to: 'https://www.disnox.top/',
-            },
-            {
-              label: '网盘',
-              to: 'https://www.disnox.top/',
+              to: 'https://api.kuizuo.cn/',
             },
           ],
         },
@@ -132,10 +128,6 @@ const config = {
             {
               label: '实战项目',
               to: 'project',
-            },
-            {
-              label: '前端示例',
-              to: 'https://www.disnox.top/',
             },
           ],
         },
@@ -214,7 +206,7 @@ const config = {
       config: {}
     },
     matomo: {
-      matomoUrl: 'https://matomo.nox.cn/',
+      matomoUrl: 'https://matomo.kuizuo.cn/',
       siteId: '1',
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
