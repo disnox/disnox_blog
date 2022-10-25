@@ -1,7 +1,7 @@
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = '闽ICP备2022017848号-2'
 
-const announcementBarContent = `<span>新增文章 <a href='/request-protocol-scheme'>模拟请求|协议复现方案</a></span>`
+const announcementBarContent = `<span>新增文章 <a href='test2'>测试2</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
