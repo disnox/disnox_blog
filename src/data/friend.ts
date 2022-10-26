@@ -18,6 +18,12 @@ export const Friends: Friend[] = [
     website: 'https://kuizuo.cn/',
     avatar: require('./avatar/kuizuo.png'),
   },
+  {
+    title: '🐏🐏',
+    description: ' 嵌入式MCU开发（点灯）硬件设计（上电即炸）三维建模（穿模是我）',
+    website: 'https://xyljy.top/',
+    avatar: require('./avatar/ljy.png'),
+  },
 ];
 
 export function sortFriend() {
