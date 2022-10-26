@@ -1,7 +1,7 @@
 const path = require('path')
 const beian = '闽ICP备2022017848号-2'
 
-const announcementBarContent = `<span>新增文章 <a href='test2'>测试2</a></span>`
+const announcementBarContent = `<span>新增文章 <a href='test1'>测试1</a></span> <span>新增文章 <a href='test2'>测试2</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -82,8 +82,8 @@ const config = {
               to: 'https://lceda.cn/',
             },
             {
-              label: '百度翻译',
-              to: 'https://fanyi.baidu.com/#en/zh/',
+              label: 'hello 图床',
+              to: 'https://www.helloimg.com/',
             },
             {
               label: 'API服务',
