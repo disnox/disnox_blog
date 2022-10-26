@@ -8,7 +8,7 @@ tags: [Terminal, 美化]
 keywords: [Terminal, 美化]
 ---
 
-![image-20210527065050479](https://img.nox.cn/image-20210527065050479.png)
+![image-20210527065050479](https://img.kuizuo.cn/image-20210527065050479.png)
 
 <!-- truncate -->
 
@@ -24,7 +24,7 @@ win + R 输入 `wt` 即可启动 Terminal
 
 不过默认设置背景全黑 同时 打开配置文件
 
-![image-20210527070628394](https://img.nox.cn/image-20210527070628394.png)
+![image-20210527070628394](https://img.kuizuo.cn/image-20210527070628394.png)
 
 其中在 profiles.list 下则是对应不同的终端，默认有 Windows PowerShell，Command Prompt，AzureCloud Shell，
 
@@ -82,7 +82,7 @@ Install-Module Get-ChildItemColor -Scope CurrentUser
 Get-PoshThemes
 ```
 
-![image-20210527071827101](https://img.nox.cn/image-20210527071827101.png)
+![image-20210527071827101](https://img.kuizuo.cn/image-20210527071827101.png)
 
 貌似上面的主题混入了某个不显眼的字样
 

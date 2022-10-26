@@ -20,19 +20,19 @@ keywords: [工具]
 
 打开运行(Windows 键＋ R)，输入 regedit，点击确定打开注册表。
 
-​ ![image-20200908114639158](https://img.nox.cn/image-20200908114639158.png)
+​ ![image-20200908114639158](https://img.kuizuo.cn/image-20200908114639158.png)
 
 这里建议右键 文件->导出，以防不小心误操作还原为原先配置。
 
 接着可以在 编辑 -> 查找 (Ctrl+F)，接着搜索对应的关键词。输入要查找的目标的值，具体操作会在后面详细说明。
 
-![image-20200908154701753](https://img.nox.cn/image-20200908154701753.png)
+![image-20200908154701753](https://img.kuizuo.cn/image-20200908154701753.png)
 
 ### 右键打开 Cmd
 
 最终效果，右键空白处，可以使用打开 CMD，如图
 
-![image-20200908152557371](https://img.nox.cn/image-20200908152557371.png)
+![image-20200908152557371](https://img.kuizuo.cn/image-20200908152557371.png)
 
 用于你在对应的文件夹下输入 cmd 命令，免去 cd 等繁杂操作。个人建议设置一下，将下面的代码复制，然后创建一个`1.reg`文件（文件名无所谓，后缀名是 reg 就行，**注意保存为 ANSI**，不然带中文会乱码）,点击运行，会有提示，放心，绝对安全。接着右键空白处，就可也看到打开 CMD 的字样，点击就能打开 cmd 窗口。
 
@@ -71,7 +71,7 @@ Windows Registry Editor Version 5.00
 
 有的时候安装了一个开发软件，不小心勾上了什么`open Folder as …`然后就出现下图情况
 
-![image-20200908115455647](https://img.nox.cn/image-20200908115455647.png)
+![image-20200908115455647](https://img.kuizuo.cn/image-20200908115455647.png)
 
 但有时候我并不需要这么长的选项，或者说我想改一下名字，让他不那么长。这时候我们同样打开注册表，首先这是*右键在文件夹空白处下*的（桌面也是一个文件夹，路径是 C:\User\用户名\Desktop）那么对应的注册表的位置是 `计算机\HKEY_CLASSES_ROOT\Directory\Background\shell` （或搜索对应的关键词），输入完定位目录为下图![image-20200908151408855](https://img.nox.cn/image-20200908151408855.png)
 
@@ -81,21 +81,21 @@ Windows Registry Editor Version 5.00
 
 ### 右键文件夹菜单
 
-![image-20200908152835802](https://img.nox.cn/image-20200908152835802.png)
+![image-20200908152835802](https://img.kuizuo.cn/image-20200908152835802.png)
 
 本以为上面设置好删除了`Open Folder as IntelliJ IDEA Project` 这个长的要死的文件夹，没想到右键文件夹竟然也有，不管了定位在对应的位置再说，路径 `计算机\HKEY_CLASSES_ROOT\Directory\shell`，我擦，原来就在上一步操作的文件夹的下面一点。定位的结果如下
 
-![image-20200908153930520](https://img.nox.cn/image-20200908153930520.png)
+![image-20200908153930520](https://img.kuizuo.cn/image-20200908153930520.png)
 
 然后同上一步操作，这里修改一下名字就行，我就设置短点名字`Open Folder as IDEA`。结果如下
 
-![image-20200908154339744](https://img.nox.cn/image-20200908154339744.png)
+![image-20200908154339744](https://img.kuizuo.cn/image-20200908154339744.png)
 
 ### 右键程序菜单
 
 既然上两步的操作你都会了，那么右键程序菜单也是一样，定位到对应的路径`计算机\HKEY_CLASSES_ROOT\*\shell\` 我就放一张定位路径图。
 
-![image-20200908164515142](https://img.nox.cn/image-20200908164515142.png)
+![image-20200908164515142](https://img.kuizuo.cn/image-20200908164515142.png)
 
 ### 右键手动新建
 
@@ -152,11 +152,11 @@ Windows Registry Editor Version 5.00
 
 #### 3.然后右键新建 DWORD，名称为`NoCustomizeWebView`，数值为 1。
 
-![image-20200908163225915](https://img.nox.cn/image-20200908163225915.png)
+![image-20200908163225915](https://img.kuizuo.cn/image-20200908163225915.png)
 
 #### 4.打开任务管理器，找到 Windows 资源管理器，右键重新启动，再次打开就会发现右键不在有自定义文件夹了。
 
-![image-20200908163415434](https://img.nox.cn/image-20200908163415434.png)
+![image-20200908163415434](https://img.kuizuo.cn/image-20200908163415434.png)
 
 ## 总结
 

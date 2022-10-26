@@ -10,12 +10,12 @@ keywords: [vscode, 开发工具, 配置]
 
 关于 vscode 介绍和安装啥的不在这浪费口舌，上号就完事了！
 
-![vscode上号](https://img.nox.cn/vscode%E4%B8%8A%E5%8F%B7.jpg)
+![vscode上号](https://img.kuizuo.cn/vscode%E4%B8%8A%E5%8F%B7.jpg)
 
 看一大堆vscode相关推荐，不如直接把别人的vscode配置直接导入到本地上运行测试。
 以下是我的 Vscode 全部配置文件，需要的可自行下载导入（替换本地 vscode 相对应的配置文件即可）。
 
-> 下载地址 https://pan.nox.cn/s/RgiP 密码 nox
+> 下载地址 https://pan.kuizuo.cn/s/RgiP 密码 kuizuo
 
 <!-- truncate -->
 
@@ -35,13 +35,13 @@ AI 写代码，用过都说好。
 
 ### Bracket Pair Colorizer 2
 
-![image-20210817213845020](https://img.nox.cn/image-20210817213845020.png)
+![image-20210817213845020](https://img.kuizuo.cn/image-20210817213845020.png)
 
 如果你不希望你的代码中白茫茫一片的，或者说想让括号更好看一点，那么这个插件特别推荐。此外，有时候代码写多了，要删除嵌套括号的时候，如果有颜色标识，在寻找的时候必然是轻松的一件事情。
 
 现 Vscode 自带该功能，无需安装插件，在设置中搜索 Bracket Pair Colorization，勾选即可。
 
-![image-20220610012923130](https://img.nox.cn/image-20220610012923130.png)
+![image-20220610012923130](https://img.kuizuo.cn/image-20220610012923130.png)
 
 ### indent-rainbow
 
@@ -92,7 +92,7 @@ AI 写代码，用过都说好。
 
 可以直接将抓包的 http 请求部分，直接 vscode 中创建临时文件并复制进去。需要的时候直接保存成.http 文件即可永久使用。右键选择`Generator Code Snippet`或快捷键`Ctrl + Alt + C`还能够直接生成不同编程语言发送 HTTP 的例子。体验效果甚至堪比一些 HTTP 请求工具（说的就是你 PostMan）
 
-![image-20210817221312429](https://img.nox.cn/image-20210817221312429.png)
+![image-20210817221312429](https://img.kuizuo.cn/image-20210817221312429.png)
 
 :::caution
 
@@ -102,7 +102,7 @@ AI 写代码，用过都说好。
 
 ### Thunder Client
 
-![image-20221003223247386](https://img.nox.cn/image-20221003223247386.png)
+![image-20221003223247386](https://img.kuizuo.cn/image-20221003223247386.png)
 
 要想在 Vscode 拥有 Postman 或者 ApiPost 的接口调试工具，不妨使用这个插件，支持分类，环境变量，如果仅作为个人测试，不要求接口分享，这个插件就足以满足大部分日常 api 接口调试。
 
@@ -112,7 +112,7 @@ AI 写代码，用过都说好。
 
 ### Project Manager
 
-![image-20220610013640476](https://img.nox.cn/image-20220610013640476.png)
+![image-20220610013640476](https://img.kuizuo.cn/image-20220610013640476.png)
 
 对于一些常用项目而言，可以通过该插件添加到 Vscode 中，直接在左侧项目管理器中便可直接使用 vscode 打开项目工程。
 
@@ -319,7 +319,7 @@ npm install @types/express
 
 上则代码的意思就是输入 prefix 内的`syso` 然后按下 tab 键就会把 body 内的`System.out.println($1);`代码提示显示出来，其中`$1`为光标位置，如图
 
-![](https://img.nox.cn/syso.gif)
+![](https://img.kuizuo.cn/syso.gif)
 
 但一般很少用到代码块，很多现成的插件就可以完全满足对应代码补全的需求，但有时候会方便很多。
 
