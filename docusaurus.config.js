@@ -212,7 +212,7 @@ const config = {
       jsLoader: 'matomo.js',
     },
     giscus: {
-      repo: 'nox/blog',
+      repo: 'NOX369/disnox_blog',
       repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
       category: 'General',
       categoryId: 'DIC_kwDOF7NJDM4CPK95',
@@ -269,7 +269,7 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/NOX369/disnox_blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogSidebarCount: 10,
         postsPerPage: 10,
