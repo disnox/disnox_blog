@@ -1,7 +1,7 @@
 const path = require('path')
 const beian = '闽ICP备2022017848号-2'
 
-const announcementBarContent = `<span>新增文章 <a href='test1'>测试1</a></span> <span>新增文章 <a href='test2'>测试2</a></span>`
+const announcementBarContent = `<span>🌟第一次入站必读 <a href='test1'>测试11111111111111🌟</a></span> <span>新增文章 <a href='test2'>测试2🌟</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -92,7 +92,7 @@ const config = {
           ],
         },
         {
-          label: '导航',
+          label: '网址导航',
           position: 'right',
           to: 'website',
         },
@@ -159,7 +159,7 @@ const config = {
             position: 'right',
             to: 'friends',
           }, {
-            label: '导航',
+            label: '网址导航',
             position: 'right',
             to: 'website',
           },
@@ -227,8 +227,8 @@ const config = {
       blibli: 'https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0',
       zhihu: 'https://www.zhihu.com/people/chui-zi-26-38',
       csdn: 'https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343',
-      qq: 'http://wpa.qq.com/msgrd?v=3&uin=45273526&site=qq&menu=yes',
-      wx: 'http://n0i.cn/1DmzeU',
+      qq: 'https://www.helloimg.com/image/ZV1U6u',
+      wx: 'https://www.helloimg.com/image/ZV1kZv',
       cloudmusic: 'https://music.163.com/#/user/home?id=3906202648',
     },
   },

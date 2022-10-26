@@ -114,10 +114,10 @@ export function SocialLinks({animatedProps, ...props}) {
       <a href="https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343" target="_blank">
         <CsdnIcon />
       </a>
-      <a href="http://wpa.qq.com/msgrd?v=3&uin=45273526&site=qq&menu=yes" target="_blank">
+      <a href="https://www.helloimg.com/image/ZV1U6u" target="_blank">
         <QqIcon />
       </a>
-      <a href="http://n0i.cn/1DmzeU" target="_blank">
+      <a href="https://www.helloimg.com/image/ZV1kZv" target="_blank">
         <WxIcon />
       </a>
       <a href="https://music.163.com/#/user/home?id=3906202648" target="_blank">
