@@ -61,7 +61,7 @@ const sidebars = {
     'tools/windows-custom-right-click-menu',
     'tools/windows-terminal-beautify',
     'tools/vscode-config',
-  ]
+  ],
 }
 
 module.exports = sidebars

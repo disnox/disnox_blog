@@ -27,7 +27,7 @@ const config = {
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web, 前端, 后端',
+        content: 'blog, C/C++, Linux, QT,STM32, FOC, DC-DC, 硬件, 嵌入式, 软件',
       },
     ],
     docs: {
