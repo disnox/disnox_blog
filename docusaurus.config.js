@@ -212,10 +212,10 @@ const config = {
       jsLoader: 'matomo.js',
     },
     giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      repo: 'NOX369/disnox_blog',
+      repoId: 'R_kgDOIS7BTg',
       category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      categoryId: 'DIC_kwDOIS7BTs4CSN3O',
       mapping: 'title',
       lang: 'zh-CN',
     },
