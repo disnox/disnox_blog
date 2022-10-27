@@ -1,6 +1,6 @@
 exports.projects = [
   {
-    title: '尚宇的小站',
+    title: 'copy',
     description: '基于Docusaurus v2 静态网站生成器实现个人博客',
     preview: 'https://www.helloimg.com/images/2022/10/26/ZV1FOC.png',
     website: 'https://www.disnox.top/',

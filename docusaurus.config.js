@@ -1,7 +1,7 @@
 const path = require('path')
-const beian = '闽ICP备2022017848号-2'
+const beian = 'CC BY-NC 4.0'
 
-const announcementBarContent = `<span>🌟第一次入站必读 <a href='test1'>测试11111111111111🌟</a></span> <span>新增文章 <a href='test2'>测试2🌟</a></span>`
+const announcementBarContent = `<span>🌟新入站必读 <a href='test1'>小站使用指南🌟</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -169,7 +169,7 @@ const config = {
         ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2022 - PRESENT 尚宇 Built with Docusaurus.</p>`,
+      copyright: `本站所有内容遵循<a href="https://creativecommons.org/licenses/by/4.0/deed.zh" >${beian}</a>开源协议，仅限非商业性使用，转载请注明出处。</p><p>Copyright © 2022 - PRESENT 尚宇 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -279,7 +279,7 @@ const config = {
         feedOptions: {
           type: 'all',
           title: '尚宇',
-          copyright: `Copyright © ${new Date().getFullYear()} 尚宇 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} 尚宇 Built with Docusaurus.<p><a href="https://creativecommons.org/licenses/by/4.0/deed.zh" class="footer_lin">${beian}</a></p>`,
         },
       }
     ],
