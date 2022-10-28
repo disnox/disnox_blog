@@ -140,7 +140,7 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/NOX369',
+              href: 'https://github.com/disnox',
             },
             {
               label: 'CSDN',
@@ -212,7 +212,7 @@ const config = {
       jsLoader: 'matomo.js',
     },
     giscus: {
-      repo: 'NOX369/disnox_blog',
+      repo: 'disnox/disnox_blog',
       repoId: 'R_kgDOIS7BTg',
       category: 'General',
       categoryId: 'DIC_kwDOIS7BTs4CSN3O',
@@ -223,7 +223,7 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/NOX369',
+      github: 'https://github.com/disnox',
       blibli: 'https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0',
       zhihu: 'https://www.zhihu.com/people/chui-zi-26-38',
       csdn: 'https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343',
@@ -269,7 +269,7 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/NOX369/disnox_blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/disnox/disnox_blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogSidebarCount: 10,
         postsPerPage: 10,

@@ -105,7 +105,7 @@ export function SocialLinks({animatedProps, ...props}) {
       <a href="https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0" target="_blank">
         <BilibiliIcon />
       </a>
-      <a href="https://github.com/NOX369" target="_blank">
+      <a href="https://github.com/disnox" target="_blank">
         <GithubIcon />
       </a>
       <a href="https://www.zhihu.com/people/chui-zi-26-38" target="_blank">
