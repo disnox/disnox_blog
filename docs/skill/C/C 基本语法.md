@@ -1,12 +1,14 @@
 ---
-id: C_1
-slug: /C_1
-title: C_1
-date: 2022-10-25
+id: Cbasic
+slug: /Cbasic
+title: C 基本语法
+date: 2022-10-29
 authors: nox
 tags: [C/C++]
 keywords: [C/C++]
 ---
 
 <!-- truncate -->
+
+## 
 

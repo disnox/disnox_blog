@@ -195,7 +195,7 @@ const config = {
     algolia: {
       appId: 'GV6YN1ODMO',
       apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'nox',
+      indexName: 'kuizuo',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
