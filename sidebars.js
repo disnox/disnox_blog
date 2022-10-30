@@ -32,8 +32,8 @@ const sidebars = {
         'skill/C/C_operator',
         'skill/C/C_control_flow',
         'skill/C/C_function',
-        
-        
+        'skill/C/C_array',
+        'skill/C/C_pointer',
       ],
     },
 
