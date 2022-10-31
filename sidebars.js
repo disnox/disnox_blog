@@ -39,7 +39,18 @@ const sidebars = {
               'skill/C/C_Basic/C_control_flow',
               'skill/C/C_Basic/C_function',
               'skill/C/C_Basic/C_array',
-              'skill/C/C_Basic/C_pointer',
+                {
+                  label: 'C 指针',
+                  type: 'category',
+                  link: {
+                  type: 'generated-index',
+                  },
+                  items: [
+                    'skill/C/C_Basic/C_pointer',
+                    'skill/C/C_Basic/C_two_pointer',
+                    'skill/C/C_Basic/C_pointer_and_array',
+                  ]
+                }
               ]        
          },
          {
