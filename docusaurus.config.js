@@ -1,7 +1,7 @@
 const path = require('path')
 const beian = 'CC BY-NC 4.0'
 
-const announcementBarContent = `<span>🌟新入站必读 <a href='test1'>小站使用指南🌟</a></span>`
+const announcementBarContent = `<span>🌟新入站必读 <a href='/test1'>小站使用指南🌟</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
