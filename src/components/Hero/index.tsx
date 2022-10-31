@@ -41,7 +41,7 @@ function Hero() {
     <animated.div className={styles.hero}>
       <div className={styles.bloghome__intro}>
         <animated.div style={animatedTexts[0]} className={styles.hero_text}>
-          <Translate id="homepage.hero.greet">👋你好! 我是</Translate>
+          <Translate id="homepage.hero.greet">Hello👋! 我是</Translate>
           <span className={styles.intro__name}>
             <Translate id="homepage.hero.name">尚宇</Translate>
           </span>
