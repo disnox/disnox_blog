@@ -50,7 +50,8 @@ const sidebars = {
                     'skill/C/C_Basic/C_two_pointer',
                     'skill/C/C_Basic/C_pointer_and_array',
                   ]
-                }
+                },
+              'skill/C/C_Basic/C_character_string',
               ]        
          },
          {
