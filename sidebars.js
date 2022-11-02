@@ -53,6 +53,7 @@ const sidebars = {
                   ]
                 },
               'skill/C/C_Basic/C_character_string',
+              'skill/C/C_Basic/C_function_order',
               ]        
          },
          {
