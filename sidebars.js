@@ -55,6 +55,7 @@ const sidebars = {
               'skill/C/C_Basic/C_character_string',
               'skill/C/C_Basic/C_function_order',
               'skill/C/C_Basic/C_struct',
+              'skill/C/C_Basic/C_pointer_High_level_issues',
               ]        
          },
          {
