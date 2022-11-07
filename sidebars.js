@@ -54,9 +54,21 @@ const sidebars = {
                 },
               'skill/C/C_Basic/C_character_string',
               'skill/C/C_Basic/C_function_order',
-              'skill/C/C_Basic/C_struct',
-              'skill/C/C_Basic/C_pointer_High_level_issues',
-              'skill/C/C_Basic/C_typedef',
+              'skill/C/C_Basic/C_pointer_High_level_issues',      
+                {
+                  label: 'C 复杂类型',
+                  type: 'category',
+                  link: {
+                  type: 'generated-index',
+                  },
+                  items: [
+                    'skill/C/C_Basic/C_typedef',
+                    'skill/C/C_Basic/C_struct',
+                    'skill/C/C_Basic/C_union_enum',
+                    'skill/C/C_Basic/C_struct_size',
+                  ]
+                },
+              'skill/C/C_Basic/C_other',
               ]        
          },
          {
