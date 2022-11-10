@@ -69,6 +69,7 @@ const sidebars = {
                   ]
                 },
               'skill/C/C_Basic/C_memory',
+              'skill/C/C_Basic/C_scope',
               'skill/C/C_Basic/C_pretreatment',
               'skill/C/C_Basic/C_other',
               ]        
