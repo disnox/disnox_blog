@@ -154,7 +154,7 @@ AI 写代码，用过都说好。
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd> 跳转(列举)当前文件某个函数
 - **<kbd>Ctrl</kbd>+<kbd>T</kbd> 全局搜索某个函数(markdown则是标题)**
 - <kbd>Ctrl</kbd>+<kbd>N</kbd> 创建一个临时文件(别再鼠标双击tab栏了)
-- <kbd>**Ctrl</kbd>+<kbd>W</kbd> 关闭当前Tab页面（浏览器适用，别加Shift，别再鼠标点击关闭按钮了）**
+- <kbd>Ctrl</kbd>+<kbd>W</kbd> 关闭当前Tab页面（浏览器适用，别加Shift，别再鼠标点击关闭按钮了）**
 - **<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> 打开刚刚关闭的页面（手残必备,浏览器适用）**
 - <kbd>Ctrl</kbd>+<kbd>B</kbd> 切换左侧导航栏
 
