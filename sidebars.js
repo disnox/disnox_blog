@@ -21,13 +21,6 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-        {
-          label: 'C 语言基础',
-          type: 'category',
-          link: {
-          type: 'generated-index',
-          },
-          items: [
               'skill/C/C_Basic/C_brief_introduction',
               'skill/C/C_Basic/C_environment_settings',
               'skill/C/C_Basic/C_program_structure',
@@ -71,22 +64,23 @@ const sidebars = {
               'skill/C/C_Basic/C_memory',
               'skill/C/C_Basic/C_scope',
               'skill/C/C_Basic/C_pretreatment',
-              ]        
-         },
-         {
-          label: 'C 数据结构',
-          type: 'category',
-          link: {
-          type: 'generated-index',
-          },
-          items: [
-              'skill/C/C_Data_Structure/data_structure',
-              'skill/C/C_Data_Structure/linear_table',
-              'skill/C/C_Data_Structure/single_linked_list',
-              ]        
-         }
       ],
     },
+    {
+      label: '数据结构',
+      type: 'category',
+      link: {
+      type: 'generated-index',
+      },
+      items: [
+          'skill/C/C_Data_Structure/data_structure',
+          'skill/C/C_Data_Structure/linear_table',
+          'skill/C/C_Data_Structure/single_linked_list',
+          'skill/C/C_Data_Structure/singly_loop_linked_list',
+          'skill/C/C_Data_Structure/double_linked_list',
+          'skill/C/C_Data_Structure/inline_list',
+          ]        
+     },
 
     // {
     //   label: 'C 语言',
