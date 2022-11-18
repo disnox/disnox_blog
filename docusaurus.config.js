@@ -44,17 +44,9 @@ const config = {
       },
       items: [
         {
-          label: '学习',
+          label: '💻学习',
           position: 'right',
           items: [
-            {
-              label: '标签',
-              to: 'tags',
-            },
-            {
-              label: '归档',
-              to: 'archive',
-            },
             {
               label: '技术笔记',
               to: 'docs/skill/',
@@ -65,6 +57,21 @@ const config = {
             },
           ],
         },
+        {
+            label: '文章',
+            position: 'right',
+            items: [
+              {
+                label: '标签',
+                to: 'tags',
+              },
+              {
+                label: '归档',
+                to: 'archive',
+              },
+            ],
+        },
+
         {
           label: '工具',
           position: 'right',
@@ -101,10 +108,7 @@ const config = {
           position: 'right',
           to: 'project',
         },
-         {
-          type: 'localeDropdown',
-          position: 'right',
-        },
+
       ],
     },
     footer: {

@@ -79,6 +79,10 @@ const sidebars = {
           'skill/C/C_Data_Structure/singly_loop_linked_list',
           'skill/C/C_Data_Structure/double_linked_list',
           'skill/C/C_Data_Structure/inline_list',
+          'skill/C/C_Data_Structure/sequential_stack',
+          'skill/C/C_Data_Structure/link_stack',
+          'skill/C/C_Data_Structure/sequential_queue',
+          'skill/C/C_Data_Structure/link_queue',
           ]        
      },
 
