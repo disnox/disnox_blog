@@ -4,9 +4,6 @@
 
 # MarkDown基础
 
-[基础篇视频讲解链接](https://www.bilibili.com/video/av87982836#reply2366896129)
-[画图篇视频讲解链接](https://www.bilibili.com/video/av88551739/)
-
 ## 标题
 
 ```markdown
