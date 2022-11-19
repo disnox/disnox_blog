@@ -90,14 +90,7 @@ const sidebars = {
       type: 'generated-index',
       },
       items: [
-          'skill/C/file_io/data_structure',
-          'skill/C/C_Data_Structure/linear_table',
-          'skill/C/C_Data_Structure/single_linked_list',
-          'skill/C/C_Data_Structure/singly_loop_linked_list',
-          'skill/C/C_Data_Structure/double_linked_list',
-          'skill/C/C_Data_Structure/inline_list',
-          'skill/C/C_Data_Structure/stack',
-          'skill/C/C_Data_Structure/queue',
+          'skill/C/FILE_IO/file_rw',
           ]        
      },
 
