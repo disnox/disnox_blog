@@ -93,8 +93,6 @@ const sidebars = {
           'skill/C/FILE_IO/file_rw',
           ]        
      },
-
-
     // {
     //   label: 'C 语言',
     //   type: 'category',
@@ -140,7 +138,6 @@ const sidebars = {
          },
       ]
     },
-
     {
       label: '杂项',
       type: 'category',
@@ -161,6 +158,13 @@ const sidebars = {
     'tools/windows-custom-right-click-menu',
     'tools/windows-terminal-beautify',
     'tools/vscode-config',
+  ],
+  blogs: [
+    'blogs/project/introduction',
+    'blogs/project/test',
+  ],
+  diary: [
+    'diary/introduction',
   ],
 }
 

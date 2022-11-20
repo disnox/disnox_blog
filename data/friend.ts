@@ -1,10 +1,3 @@
-export type Friend = {
-  title: string;
-  description?: string;
-  website: string;
-  avatar?: any;
-};
-
 export const Friends: Friend[] = [
   {
     title: '峰华前端工程师',
@@ -24,10 +17,12 @@ export const Friends: Friend[] = [
     website: 'https://xyljy.top/',
     avatar: require('./avatar/ljy.png'),
   },
+  
 ];
 
-export function sortFriend() {
-  const result = Friends;
-
-  return result;
-}
+export type Friend = {
+  title: string;
+  description: string;
+  website: string;
+  avatar?: any;
+};

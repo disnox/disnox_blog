@@ -2,14 +2,14 @@ import React from 'react';
 import Layout from '@theme/Layout';
 
 import FriendCard from './_components/FriendCard';
-import {sortFriend, type Friend} from '@site/src/data/friend';
+import {Friends, type Friend} from '@site/data/friend';
 
 import styles from './styles.module.css';
 
 const TITLE = '友情链接';
 const DESCRIPTION = '申请友链请点击下方申请，熟人可直接找我~';
 const ADD_FRIEND_URL =
-  'https://github.com/disnox/disnox_blog/blob/main/src/data/friend.ts';
+  'https://github.com/disnox/blog/edit/main/src/data/friend.ts';
 
 function FriendHeader() {
   return (
@@ -28,7 +28,7 @@ function FriendHeader() {
 }
 
 function FriendCards() {
-  const friends = sortFriend();
+  const friends = Friends
   return (
     <section className="margin-top--lg margin-bottom--lg">
       <div className="container">

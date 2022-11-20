@@ -1,6 +1,6 @@
 {
-  "name": "尚宇的小站",
-  "short_name": "尚宇的小站",
+  "name": "📺尚宇的小站",
+  "short_name": "📺尚宇的小站",
   "theme_color": "#2196f3",
   "background_color": "#424242",
   "display": "standalone",
@@ -9,7 +9,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://nox.cn/manifest.json"
+      "url": "https://disnox.cn/manifest.json"
     }
   ],
   "icons": [

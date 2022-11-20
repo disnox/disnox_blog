@@ -5,19 +5,14 @@ import type {
   BlogTags,
   BlogPost,
 } from '@docusaurus/plugin-content-blog';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {
-  faTag,
-  faArchive,
-  faBook,
-  faThLarge,
-} from '@fortawesome/free-solid-svg-icons';
-import {IconProp} from '@fortawesome/fontawesome-svg-core';
 import Link from '@docusaurus/Link';
-import {SocialLinks} from '@site/src/components/Hero';
-import {useThemeConfig} from '@docusaurus/theme-common';
+import { Icon } from '@iconify/react';
+import { SocialLinks } from '@site/src/components/Hero';
+import { useThemeConfig } from '@docusaurus/theme-common';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { Fade } from "react-awesome-reveal";
+import { projects } from '@site/data/project';
 
 type Count = {
   blog: number;
@@ -34,10 +29,10 @@ export function BlogUser({
   isNavbar?: boolean;
 }) {
   const {
-    siteConfig: {tagline},
+    siteConfig: { tagline },
   } = useDocusaurusContext();
   const {
-    navbar: {title, logo = {src: ''}},
+    navbar: { title, logo = { src: '' } },
   } = useThemeConfig();
 
   const logoLink = useBaseUrl(logo.src || '/');
@@ -49,7 +44,7 @@ export function BlogUser({
     ] as any;
     const blogData = blogPluginData?.blogs as BlogPost[];
     const tagData = blogPluginData?.tags as BlogTags;
-    const projectData = blogPluginData?.projects;
+
     const docData = (
       globalData?.['docusaurus-plugin-content-docs']?.['default'] as any
     )?.versions[0].docs;
@@ -58,15 +53,14 @@ export function BlogUser({
       blog: blogData.length,
       tag: Object.keys(tagData).length ?? 0,
       doc: docData?.length ?? 0,
-      project: projectData?.length ?? 0,
+      project: projects?.length ?? 0,
     };
   }
 
   return (
     <div
-      className={`row ${
-        isNavbar ? 'bloginfo__card-navbar' : 'bloginfo__card'
-      }`}>
+      className={`row ${isNavbar ? 'bloginfo__card-navbar' : 'bloginfo__card'
+        }`}>
       <Link href="/about">
         <img className="bloginfo__img" src={logoLink} alt="logo"></img>
       </Link>
@@ -77,52 +71,36 @@ export function BlogUser({
       </div>
       <div className="bloginfo__description">{tagline}</div>
       <div className="bloginfo__num">
-        <Link className="bloginfo__num-item" href="/archive" data-tips="blog count">
-          <FontAwesomeIcon
-            icon={faArchive as IconProp}
-            width="16"
-            height="16"
-          />{' '}
+        <Link className="bloginfo__num-item" href="/archive">
+          <Icon icon="carbon:blog" width="20" height="20" />
           {count.blog}
         </Link>
-        <Link className="bloginfo__num-item" href="/tags" data-tips="tag count">
-          <FontAwesomeIcon
-            icon={faTag as IconProp}
-            width="16"
-            height="16"
-            style={{transform: 'rotate(90deg)'}}
-          />{' '}
+        <Link className="bloginfo__num-item" href="/tags">
+          <Icon icon="ri:price-tag-3-line" width="20" height="20" />
           {count.tag}
         </Link>
-        <Link
-          className="bloginfo__num-item"
-          href="/docs/skill"
-          data-tips="笔记数">
-          <FontAwesomeIcon icon={faBook as IconProp} width="16" height="16" />{' '}
+        <Link className="bloginfo__num-item" href="/docs/skill">
+          <Icon icon="carbon:notebook" width="20" height="20" />
           {count.doc}
         </Link>
         <Link className="bloginfo__num-item" href="/project" data-tips="project count">
-          <FontAwesomeIcon
-            icon={faThLarge as IconProp}
-            width="16"
-            height="16"
-          />{' '}
+          <Icon icon="ph:projector-screen" width="20" height="20" />
           {count.project}
         </Link>
       </div>
       <SocialLinks
-        animatedProps={{
+        style={{
           maxWidth: '100%',
           padding: '0.5em 0',
           justifyContent: 'space-evenly',
-          ...(isNavbar ? {borderBottom: '1px solid #eee'} : null),
+          ...(isNavbar ? { borderBottom: '1px solid #eee' } : null),
         }}
       />
     </div>
   );
 }
 
-const TagsSection = ({data}: {data: BlogTag[]}) => {
+const TagsSection = ({ data }: { data: BlogTag[] }) => {
   return (
     <div className="bloginfo__tags">
       {data
@@ -151,39 +129,35 @@ export default function BlogInfo() {
   const docData = (
     globalData?.['docusaurus-plugin-content-docs']?.['default'] as any
   )?.versions[0].docs;
-  const projectData = blogPluginData?.projects;
 
   const count: Count = {
     blog: blogData.length,
     tag: Object.keys(tagData).length ?? 0,
     doc: docData?.length ?? 0,
-    project: projectData?.length ?? 0,
+    project: projects?.length ?? 0,
   };
 
   return (
     <div className="bloginfo col col--3 margin-bottom--md">
       <section className="bloginfo__content">
-        <div className="bloghome__posts-card bloginfo__user margin-bottom--md">
-          <BlogUser count={count} />
-        </div>
-        <div className="bloghome__posts-card margin-bottom--md">
-          <div className="row bloginfo__card">
-            <div>
-              <FontAwesomeIcon
-                icon={faTag as IconProp}
-                style={{transform: 'rotate(90deg)'}}
-                color="#12affa"
-                width="16"
-                height="16"
-              />
-              <Link className="margin-horiz--sm" href="/tags">
-                标签
-              </Link>
-            </div>
-            <TagsSection data={Object.values(tagData)} />
+        <Fade direction='up' triggerOnce={true}>
+
+          <div className="bloghome__posts-card bloginfo__user margin-bottom--md">
+            <BlogUser count={count} />
           </div>
-        </div>
+          <div className="bloghome__posts-card margin-bottom--md">
+            <div className="row bloginfo__card">
+              <div style={{ display: 'inline-flex', alignItems: 'center' }}>
+                <Icon icon="ri:price-tag-3-line" width="20" height="20" />
+                <span className="margin-horiz--sm">标签</span>
+              </div>
+              <TagsSection data={Object.values(tagData)} />
+            </div>
+          </div>
+        </Fade>
+
       </section>
+
     </div>
   );
 }

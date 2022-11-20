@@ -1,8 +1,9 @@
 import {Friends} from './friend';
+
 export interface Website {
   name: string;
   logo: string;
-  desc?: string;
+  desc: string;
   href: string;
   tags?: string[];
 }
@@ -86,17 +87,31 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.thosefree.com/',
         tags: [''],
       },
-    ],
-  },
-  {
-    name: '工具',
-    websites: [
+      {
+        name: 'Hoppscotch',
+        desc: '开源 API 开发生态系统',
+        logo: '/img/wevsite/hoppscotch.png',
+        href: 'https://hoppscotch.io/',
+        tags: ['api'],
+      },
       {
         name: '菜鸟教程',
         desc: '学的不仅是技术，更是梦想！',
         logo: 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/FD715D45-8A4B-4B77-BDA1-D75D7226AACB.jpeg-1609660318596',
         href: 'https://www.runoob.com/',
         tags: ['教程'],
+      },
+    ],
+  },
+  {
+    name: '工具',
+    websites: [
+      {
+        name: 'VsCode',
+        desc: '非常好用的代码编辑器',
+        logo: '/img/website/vscode.ico',
+        href: 'https://code.visualstudio.com/',
+        tags: ['工具'],
       },
       {
         name: '在线工具',
@@ -134,7 +149,7 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['工具', '格式转换'],
       },
       {
-        name: ' JsonT.run',
+        name: 'JsonT.run',
         desc: '一个简洁的在线 JSON 解析器',
         logo: 'https://www.jsont.run/favicon.ico',
         href: 'https://www.jsont.run/',
@@ -164,6 +179,13 @@ export const websiteData: WebsiteCategory[] = [
         desc: '更快地交付安全代码，部署到任何云，并推动业务成果',
         logo: 'https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64',
         href: 'https://gitlab.com/',
+        tags: ['代码托管', '项目源码'],
+      },
+      {
+        name: 'Gitea',
+        desc: 'Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.',
+        logo: 'https://gitea.io/images/favicon.png',
+        href: 'https://gitea.io/',
         tags: ['代码托管', '项目源码'],
       },
       {
@@ -443,7 +465,7 @@ export const websiteData: WebsiteCategory[] = [
         desc: '通过简单的动画基元使您的组件栩栩如生',
         logo: 'https://react-spring.dev/favicon.ico',
         href: 'https://react-spring.dev/',
-        tags: ['前端', 'React', '小程序'],
+        tags: ['前端', 'React', '动画'],
       },
     ],
   },
@@ -460,7 +482,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'Bootstrap',
         desc: 'Bootstrap 是全球最受欢迎的前端开源工具库，它支持 Sass 变量和 mixin、响应式栅格系统、自带大量组件和众多强大的 JavaScript 插件。基于 Bootstrap 提供的强大功能，能够让你快速设计并定制你的网站',
-        logo: 'https://img.nox.cn/20210907055816.png',
+        logo: 'https://img.disnox.cn/20210907055816.png',
         href: 'https://v5.bootcss.com/',
         tags: ['Css', '框架'],
       },
@@ -743,6 +765,13 @@ export const websiteData: WebsiteCategory[] = [
         logo: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-a90b5f95-90ba-4d30-a6a7-cd4d057327db/d23e842c-58fc-4574-998d-17fdc7811cc3.png',
         href: 'https://uniapp.dcloud.io/',
         tags: ['Vue', '小程序'],
+      },
+      {
+        name: 'Taro',
+        desc: 'Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用',
+        logo: 'https://taro-docs.jd.com/taro/img/taroLogo180.png',
+        href: 'https://taro.jd.com',
+        tags: ['前端', 'React', '小程序'],
       },
     ]
   },

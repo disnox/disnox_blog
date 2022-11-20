@@ -3,9 +3,6 @@ import * as blogPluginExports from '@docusaurus/plugin-content-blog';
 import type {PluginOptions} from '@docusaurus/plugin-content-blog';
 import {BlogContent} from './types';
 
-// @ts-ignore
-import {projects} from '../../../../data/project.js';
-
 const blogPlugin = blogPluginExports.default;
 
 async function blogPluginEnhanced(
@@ -27,7 +24,6 @@ async function blogPluginEnhanced(
       setGlobalData({
         blogs: blogPosts,
         tags: blogTags,
-        projects: projects,
       });
     },
   };

@@ -10,12 +10,12 @@ keywords: [vscode, 开发工具, 配置]
 
 关于 vscode 介绍和安装啥的不在这浪费口舌，上号就完事了！
 
-![vscode上号](https://img.kuizuo.cn/vscode%E4%B8%8A%E5%8F%B7.jpg)
+![vscode上号](https://img.disnox.cn/vscode%E4%B8%8A%E5%8F%B7.jpg)
 
 看一大堆vscode相关推荐，不如直接把别人的vscode配置直接导入到本地上运行测试。
 以下是我的 Vscode 全部配置文件，需要的可自行下载导入（替换本地 vscode 相对应的配置文件即可）。
 
-> 下载地址 https://pan.kuizuo.cn/s/RgiP 密码 kuizuo
+> 下载地址 https://pan.disnox.cn/s/RgiP 密码 disnox
 
 <!-- truncate -->
 
@@ -35,13 +35,13 @@ AI 写代码，用过都说好。
 
 ### Bracket Pair Colorizer 2
 
-![image-20210817213845020](https://img.kuizuo.cn/image-20210817213845020.png)
+![image-20210817213845020](https://img.disnox.cn/image-20210817213845020.png)
 
 如果你不希望你的代码中白茫茫一片的，或者说想让括号更好看一点，那么这个插件特别推荐。此外，有时候代码写多了，要删除嵌套括号的时候，如果有颜色标识，在寻找的时候必然是轻松的一件事情。
 
 现 Vscode 自带该功能，无需安装插件，在设置中搜索 Bracket Pair Colorization，勾选即可。
 
-![image-20220610012923130](https://img.kuizuo.cn/image-20220610012923130.png)
+![image-20220610012923130](https://img.disnox.cn/image-20220610012923130.png)
 
 ### indent-rainbow
 
@@ -92,7 +92,7 @@ AI 写代码，用过都说好。
 
 可以直接将抓包的 http 请求部分，直接 vscode 中创建临时文件并复制进去。需要的时候直接保存成.http 文件即可永久使用。右键选择`Generator Code Snippet`或快捷键`Ctrl + Alt + C`还能够直接生成不同编程语言发送 HTTP 的例子。体验效果甚至堪比一些 HTTP 请求工具（说的就是你 PostMan）
 
-![image-20210817221312429](https://img.kuizuo.cn/image-20210817221312429.png)
+![image-20210817221312429](https://img.disnox.cn/image-20210817221312429.png)
 
 :::caution
 
@@ -102,7 +102,7 @@ AI 写代码，用过都说好。
 
 ### Thunder Client
 
-![image-20221003223247386](https://img.kuizuo.cn/image-20221003223247386.png)
+![image-20221003223247386](https://img.disnox.cn/image-20221003223247386.png)
 
 要想在 Vscode 拥有 Postman 或者 ApiPost 的接口调试工具，不妨使用这个插件，支持分类，环境变量，如果仅作为个人测试，不要求接口分享，这个插件就足以满足大部分日常 api 接口调试。
 
@@ -112,7 +112,7 @@ AI 写代码，用过都说好。
 
 ### Project Manager
 
-![image-20220610013640476](https://img.kuizuo.cn/image-20220610013640476.png)
+![image-20220610013640476](https://img.disnox.cn/image-20220610013640476.png)
 
 对于一些常用项目而言，可以通过该插件添加到 Vscode 中，直接在左侧项目管理器中便可直接使用 vscode 打开项目工程。
 
@@ -230,7 +230,7 @@ AI 写代码，用过都说好。
 
 相信你在使用`vscode`中，肯定有过这样的问题，明明引入本地模块，但是有的时候就是没有对应的代码提示。如图
 
-![image-20200901212906150](https://img.kuizuo.cn/image-20200901212906150.png)
+![image-20200901212906150](https://img.disnox.cn/image-20200901212906150.png)
 
 像导入本地模块`fs`，却没有代码提示，想要有本地模块代码提示，最快捷的方法就是通过下面一行代码
 
@@ -248,7 +248,7 @@ npm init -y
 
 然后在目录下你就能看到`node_modules`，在这个文件夹下有一个`@types`，这个目录就是存放你以后代码提示的目录，现在`@types`里面有`node`这个文件夹，也就是我们刚刚这个命令`npm install @types/node`后的 node，现在试试看确实是有代码提示了，并且还有带星推荐。
 
-![image-20200901214223439](https://img.kuizuo.cn/image-20200901214223439.png)
+![image-20200901214223439](https://img.disnox.cn/image-20200901214223439.png)
 
 现在，我的代码里有`jquery`代码，但是本地已有`jquery.js`文件，又不想安装`jquery`的模块，但是又要`jquery`的代码提示，这时候你就可以输入下面代码，就能看到对应的代码。
 
@@ -256,19 +256,19 @@ npm init -y
 npm install @types/jquery
 ```
 
-![image-20200901214906038](https://img.kuizuo.cn/image-20200901214906038.png)
+![image-20200901214906038](https://img.disnox.cn/image-20200901214906038.png)
 
 在比如有的库安装会没带代码提示，这时候就用上面的方法同样也可以有代码提示，例如`express`
 
 `express`相关安装操作我就不赘述了，先看图片
 
-![image-20200901215612611](https://img.kuizuo.cn/image-20200901215612611.png)
+![image-20200901215612611](https://img.disnox.cn/image-20200901215612611.png)
 
 这 app 代码提示怎么全是 js 自带的代码提示。
 
 然后在看`node_modules\@types`下，怎么只有我刚刚安装的那几个？
 
-![image-20200901215826419](https://img.kuizuo.cn/image-20200901215826419.png)
+![image-20200901215826419](https://img.disnox.cn/image-20200901215826419.png)
 
 不妨试试
 
@@ -278,11 +278,11 @@ npm install @types/express
 
 这时候`node_modules\@types`下，就多了几个文件夹，其中一个名为 express，那么现在代码提示肯定有了。
 
-![image-20200901220225659](https://img.kuizuo.cn/image-20200901220225659.png)
+![image-20200901220225659](https://img.disnox.cn/image-20200901220225659.png)
 
 果不其然，`vscode`里也有正常的代码提示了
 
-![image-20200901220329481](https://img.kuizuo.cn/image-20200901220329481.png)
+![image-20200901220329481](https://img.disnox.cn/image-20200901220329481.png)
 
 :::info
 
@@ -319,7 +319,7 @@ npm install @types/express
 
 上则代码的意思就是输入 prefix 内的`syso` 然后按下 tab 键就会把 body 内的`System.out.println($1);`代码提示显示出来，其中`$1`为光标位置，如图
 
-![](https://img.kuizuo.cn/syso.gif)
+![](https://img.disnox.cn/syso.gif)
 
 但一般很少用到代码块，很多现成的插件就可以完全满足对应代码补全的需求，但有时候会方便很多。
 

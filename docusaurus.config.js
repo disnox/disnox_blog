@@ -1,18 +1,18 @@
 const path = require('path')
 const beian = 'CC BY-NC 4.0'
 
-const announcementBarContent = `<span>🌟新入站必读 <a href='/test1'>小站使用指南🌟</a></span>`
+const announcementBarContent = `<span>🌟新入站必读 <a href='/test'>小站使用指南🌟</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '尚宇的小站',
+  title: '📺尚宇的小站',
   titleDelimiter: '-',
-  url: 'https://www.disnox.top/',
+  url: 'https://disnox.top',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'nox',
+  organizationName: 'disnox',
   projectName: 'blog',
-  tagline: '星海横流, 岁月成碑',
+  tagline: '大多数人的生活不应该是我的生活',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content:'尚宇'
+        content:'📺尚宇'
       },
       {
         name: 'keywords',
@@ -36,44 +36,52 @@ const config = {
       }
     },
     navbar: {
-      title: '尚宇',
+      title: '📺尚宇',
       logo: {
-        alt: '尚宇',
+        alt: '📺尚宇',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
       items: [
         {
-          label: '💻学习',
+          label: '📝学习',
           position: 'right',
           items: [
             {
-              label: '技术笔记',
+              label: '📑技术笔记',
               to: 'docs/skill/',
             },
             {
-              label: '工作指南',
+              label: '✏高效工作指南',
               to: 'docs/tools/',
             },
           ],
         },
         {
-            label: '文章',
-            position: 'right',
-            items: [
-              {
-                label: '标签',
-                to: 'tags',
-              },
-              {
-                label: '归档',
-                to: 'archive',
-              },
-            ],
+          label: '📘博客',
+          position: 'right',
+          items: [
+            {
+              label: '📁归档',
+              to: 'docs/blogs/',
+            },
+            {
+              label: '⏲时间轴',
+              to: 'archive',
+            },
+            {
+              label: '🏷标签',
+              to: 'tags',
+            },
+          ],
         },
-
         {
-          label: '工具',
+          label: '🏖生活',
+          position: 'right',
+          to: 'docs/diary/',
+        },
+        {
+          label: '🛠工具',
           position: 'right',
           items: [
             {
@@ -92,21 +100,17 @@ const config = {
               label: 'hello 图床',
               to: 'https://www.helloimg.com/',
             },
-            {
-              label: 'API服务',
-              to: 'https://api.kuizuo.cn/',
-            },
           ],
         },
         {
-          label: '网址导航',
-          position: 'right',
-          to: 'website',
-        },
-        {
-          label: '项目',
+          label: '🤖项目',
           position: 'right',
           to: 'project',
+        },
+        {
+          label: '🛫导航',
+          position: 'right',
+          to: 'website',
         },
 
       ],
@@ -163,17 +167,18 @@ const config = {
             position: 'right',
             to: 'friends',
           }, {
-            label: '网址导航',
+            label: '导航',
             position: 'right',
             to: 'website',
           },
           {
-            html: `<a href="https://www.docusaurus.cn/docs/installation" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`
+            html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`
           },
         ],
         },
       ],
-      copyright: `本站所有内容遵循<a href="https://creativecommons.org/licenses/by/4.0/deed.zh" >${beian}</a>开源协议，仅限非商业性使用，转载请注明出处。</p><p>Copyright © 2022 - PRESENT 尚宇 Built with Docusaurus.</p>`,
+      // copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 📺尚宇 Built with Docusaurus.</p>`,
+      copyright: `本站所有内容遵循<a href="https://creativecommons.org/licenses/by/4.0/deed.zh" >${beian}</a>开源协议，仅限非商业性使用，转载请注明出处。</p><p>Copyright © 2022 - PRESENT 📺尚宇 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -199,7 +204,7 @@ const config = {
     algolia: {
       appId: 'GV6YN1ODMO',
       apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      indexName: 'disnox',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
@@ -210,16 +215,16 @@ const config = {
       config: {}
     },
     matomo: {
-      matomoUrl: 'https://matomo.kuizuo.cn/',
+      matomoUrl: 'https://matomo.disnox.cn/',
       siteId: '1',
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
     },
     giscus: {
       repo: 'disnox/disnox_blog',
-      repoId: 'R_kgDOIS7BTg',
+      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
       category: 'General',
-      categoryId: 'DIC_kwDOIS7BTs4CSN3O',
+      categoryId: 'DIC_kwDOF7NJDM4CPK95',
       mapping: 'title',
       lang: 'zh-CN',
     },
@@ -232,7 +237,7 @@ const config = {
       zhihu: 'https://www.zhihu.com/people/chui-zi-26-38',
       csdn: 'https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343',
       qq: 'https://www.helloimg.com/image/ZV1U6u',
-      wx: 'https://www.helloimg.com/image/ZV1kZv',
+      wx: 'http://n0i.cn/1DmzeU',
       cloudmusic: 'https://music.163.com/#/user/home?id=3906202648',
     },
   },
@@ -273,7 +278,7 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/disnox/disnox_blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/disnox/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogSidebarCount: 10,
         postsPerPage: 10,
@@ -282,8 +287,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '尚宇',
-          copyright: `Copyright © ${new Date().getFullYear()} 尚宇 Built with Docusaurus.<p><a href="https://creativecommons.org/licenses/by/4.0/deed.zh" class="footer_lin">${beian}</a></p>`,
+          title: '📺尚宇',
+          copyright: `Copyright © ${new Date().getFullYear()} 📺尚宇 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       }
     ],

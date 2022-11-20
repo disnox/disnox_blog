@@ -1,5 +1,5 @@
-nox:
-  name: nox
+disnox:
+  name: Kuizuo
   title: ts full stack / Student
-  url: https://github.com/nox
+  url: https://github.com/disnox
   image_url: /img/logo.webp

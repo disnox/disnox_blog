@@ -4,7 +4,7 @@
     "description": "hero greet"
   },
   "homepage.hero.name": {
-    "message": "nox",
+    "message": "Kuizuo",
     "description": "hero name"
   },
   "homepage.hero.text": {
@@ -74,6 +74,12 @@
   "theme.blog.post.readingTime.plurals": {
     "message": "One min read|{readingTime} min read",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.title.recommend":{
+    "message": "Recommend Blog"
+  },
+  "theme.blog.title.new":{
+    "message": "New Blog"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
