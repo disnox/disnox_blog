@@ -1,20 +1,20 @@
 export const projects: Project[] = [
   {
     title: '尚宇的小站',
-    description: '基于Docusaurus v2 静态网站生成器实现个人博客',
+    description: '参考愧怍的开源项目实现的个人博客（基于Docusaurus v2 静态网站生成器）',
     preview: '/img/blog/blog.png',
     website: 'https://kuizuo.cn',
-    source: 'https://github.com/kuizuo/blog',
+    source: 'https://github.com/disnox/disnox_blog',
     tags: ['opensource', 'design', 'favorite'],
-    type: 'web',
+    type: 'Copy',
   },
 
   {
     title: 'test',
     description: 'test',
-    website: 'https://github.com/kuizuo/mini-vue',
+    website: 'https://github.com/mini-vue',
     tags: ['opensource'],
-    type: 'personal'
+    type: 'Project'
   },
 ]
 
@@ -33,10 +33,12 @@ export type TagType =
   | 'personal';
 
 export type ProjectType =
-  | 'personal'
-  | 'web'
-  | 'app'
-  | 'other';
+  | 'Personal'
+  | 'Project'
+  | 'Web'
+  | 'Copy'
+  | 'App'
+  | 'Other';
 
 export type Project = {
   title: string;

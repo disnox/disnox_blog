@@ -42,10 +42,21 @@ function Hero() {
           </span>
         </animated.div>
         <animated.p style={trails[1]}>
-          <Translate id="homepage.hero.text">
-            {`我在这里记录一些知识，以免遗忘，请随意浏览～`}
-          </Translate>
+
+        <Translate id="homepage.hero.text">
+            {`我在这里记录一些知识，以免遗忘，也希望对你有用，请随意浏览～`}
+        </Translate>
           <br />
+          <br />
+        <Translate>
+          每个优秀的人，都会有一段沉默的时光，那段时光，是付出了很多努力
+        </Translate>
+          <br />
+          <Translate>
+          却得不到结果的日子，我们把它叫做扎根。
+        </Translate>
+          <br /><br />
+
           <Translate
             id="homepage.hero.need"
             values={{
@@ -67,7 +78,7 @@ function Hero() {
               ),
             }}
           >
-            {`这里有：{note}、{project}、{link}。`}
+            {`如果你有兴趣，可以看看我的{note}和{project}以及{link}。`}
           </Translate>
         </animated.p>
         <SocialLinks style={trails[2]} />

@@ -102,11 +102,11 @@ const config = {
             },
           ],
         },
-        // {
-        //   label: '🤖项目',
-        //   position: 'right',
-        //   to: 'pro',
-        // },
+        {
+          label: '🤖项目',
+          position: 'right',
+          to: 'project',
+        },
         {
           label: '🛫导航',
           position: 'right',
