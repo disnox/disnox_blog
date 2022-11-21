@@ -160,8 +160,8 @@ const sidebars = {
     'tools/vscode-config',
   ],
   blogs: [
-    'blogs/project/introduction',
-    'blogs/project/test',
+    'blogs/projects/introduction',
+    'blogs/projects/test_2',
   ],
   diary: [
     'diary/introduction',
