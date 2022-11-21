@@ -21,7 +21,7 @@ const DESCRIPTION = translate({
   message: '以下项目均由本人开发，均可自由使用，部分开源。',
 });
 
-const GITHUB_URL = 'https://github.com/disnox';
+const GITHUB_URL = 'https://github.com/kuizuo';
 
 type ProjectState = {
   scrollTopPosition: number;

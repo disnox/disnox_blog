@@ -8,16 +8,6 @@ import Link from '@docusaurus/Link';
 import HeroMain from './img/hero_main.svg';
 
 import JuejinIcon from '@site/static/icons/juejin.svg';
-import GithubIcon from '@site/static/icons/github.svg';
-import RssIcon from '@site/static/icons/rss.svg';
-import ZhihuIcon from '@site/static/icons/zhihu.svg';
-import BilibiliIcon from '@site/static/icons/bilibili.svg';
-import QqIcon from '@site/static/icons/qq.svg';
-import WxIcon from '@site/static/icons/wx.svg';
-import CsdnIcon from '@site/static/icons/csdn.svg';
-import CloudMusicIcon from '@site/static/icons/cloud-music.svg';
-import TwitterIcon from '@site/static/icons/twitter.svg';
-import Button from '../Button';
 import { Icon } from '@iconify/react';
 
 import styles from './styles.module.scss';
@@ -32,18 +22,19 @@ function Hero() {
       friction: 45,
     },
   });
+
   return (
     <animated.div className={styles.hero}>
       <div className={styles.bloghome__intro}>
         <animated.div style={trails[0]} className={styles.hero_text}>
-          <Translate id="homepage.hero.greet">Hello👋! 我是</Translate>
+          <Translate id="homepage.hero.greet">你好! 我是</Translate>
           <span className={styles.intro__name}>
-            <Translate id="homepage.hero.name">尚宇</Translate>
+            <Translate id="homepage.hero.name">愧怍</Translate>
           </span>
         </animated.div>
         <animated.p style={trails[1]}>
           <Translate id="homepage.hero.text">
-            {`我在这里记录一些知识，以免遗忘，请随意浏览～`}
+            {`在这里你能了解到各类实战开发的所遇到的问题，帮助你在学习的过程了解最新的技术栈，并希望我的个人经历对你有所启发。`}
           </Translate>
           <br />
           <Translate
@@ -57,7 +48,6 @@ function Hero() {
               project: (
                 <Link to="/project">
                   <Translate id="hompage.hero.text.project">实战项目</Translate>
-                  
                 </Link>
               ),
               link: (
@@ -67,32 +57,15 @@ function Hero() {
               ),
             }}
           >
-            {`这里有：{note}、{project}、{link}。`}
+            {`或许你需要{note}、{project}、{link}。`}
           </Translate>
         </animated.p>
         <SocialLinks style={trails[2]} />
         <animated.div style={trails[3]}>
-          {/* <a className={styles.intro} href={'./about'}>
+          <a className={styles.intro} href={'./about'}>
             <Translate id="hompage.hero.text.introduce">自我介绍</Translate>
             <Icon icon='ri:arrow-right-line' />
           </a>
-          <span>　　　　　</span>  
-          <a className={styles.intro} href="https://kdocs.cn/l/cp0rLMrgfABF">
-            <Translate id="hompage.hero.text.introduce">个人简历</Translate>
-            <Icon icon='ri:arrow-right-line' />
-          </a> */}
-          <br/> 
-          <Button isLink href={'./about'}>
-            <Translate id="hompage.hero.text.introduce">自我介绍</Translate>
-          </Button>
-          <span>　</span> 
-          <Button isLink href="https://kdocs.cn/l/cp0rLMrgfABF">
-            <Translate id="hompage.hero.text.introduce">个人简历</Translate>
-          </Button>
-          {/* <span>　</span> 
-          <Button isLink href="/docs/skill">
-            <Translate id="hompage.hero.text.introduce">技术笔记</Translate>
-          </Button> */}
         </animated.div>
       </div>
       <div className={styles.bloghome__image}>
@@ -114,28 +87,24 @@ export function SocialLinks({ ...prop }) {
     wx: string;
     cloudmusic: string;
     zhihu: string;
-    blibli: string;
   };
 
   return (
     <animated.div className={styles.social__links} {...prop}>
-      <a href={socials.blibli} target="_blank">
-        <BilibiliIcon />
+      <a href="/rss.xml" target="_blank">
+        <Icon icon='ri:rss-line' />
       </a>
       <a href={socials.github} target="_blank">
         <Icon icon='ri:github-line' />
       </a>
-      <a href={socials.cloudmusic} target="_blank">
-        <CloudMusicIcon />
+      <a href={socials.juejin} target="_blank">
+        <JuejinIcon />
       </a>
       <a href={socials.qq} target="_blank">
         <Icon icon='ri:qq-line' />
       </a>
-      <a href={socials.wx} target="_blank">
-      <WxIcon />
-      </a>
-      <a href={socials.csdn} target="_blank">
-        <CsdnIcon />
+      <a href={socials.twitter} target="_blank">
+        <Icon icon='ri:twitter-line' />
       </a>
       <a href={socials.zhihu} target="_blank">
         <Icon icon='ri:zhihu-line' />
