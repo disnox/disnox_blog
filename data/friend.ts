@@ -6,47 +6,18 @@ export const Friends: Friend[] = [
     avatar: require('./avatar/zxuqian.png'),
   },
   {
-    title: 'Mas0n',
-    description: '梦想是咸鱼',
-    website: 'https://blog.shi1011.cn/',
-    avatar: require('./avatar/mas0n.png'),
+    title: '愧怍',
+    description: ' 保持学习，希望在有限的时间内，学到无限的可能',
+    website: 'https://kuizuo.cn/',
+    avatar: require('./avatar/kuizuo.png'),
   },
   {
-    title: 'Jetzihan',
-    description: '有黑羽快斗必有我',
-    website: 'https://jetzihan.netlify.app/',
-    avatar: require('./avatar/jetzihan.png'),
+    title: '🐏🐏',
+    description: ' 嵌入式MCU开发（点灯）硬件设计（上电即炸）三维建模（穿模是我）',
+    website: 'https://xyljy.top/',
+    avatar: require('./avatar/ljy.png'),
   },
-  {
-    title: 'KnIFeR',
-    description: 'Web开发学习者，分享编程相关的技术和见闻',
-    website: 'http://knifer.fun/',
-    avatar: require('./avatar/knifer.png'),
-  },
-  {
-    title: 'Pincman',
-    description: '中年老码农,专注于全栈开发与教学',
-    website: 'https://pincman.com/',
-    avatar: require('./avatar/pincman.png'),
-  },
-  {
-    title: '前端老怪兽',
-    description: '一只会敲代码的怪兽',
-    website: 'https://zswei.xyz/',
-    avatar: require('./avatar/old_monster.png'),
-  },
-  {
-    title: 'Meoo',
-    description: '一杯茶，一根网线，一台电脑',
-    website: 'https://meoo.space/',
-    avatar: require('./avatar/meoo.png'),
-  },
-  {
-    title: '尚宇',
-    description: '心怀理想，仰望星空，埋头苦干',
-    website: 'https://www.disnox.top/',
-    avatar: require('./avatar/disnox.png'),
-  },
+  
 ];
 
 export type Friend = {

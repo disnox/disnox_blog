@@ -2,15 +2,15 @@
   "name": "blog",
   "version": "2.2.0",
   "author": {
-    "url": "https://kuizuo.cn",
-    "email": "hi@kuizuo.cn",
+    "url": "https://disnox.cn",
+    "email": "hi@disnox.cn",
     "name": "Kuizuo"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/disnox/blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "https://disnox.cn",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",

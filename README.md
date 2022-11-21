@@ -3,26 +3,26 @@
 </h2><br>
 
 <pre align="center">
- Build with 🦖<a href="https://kuizuo.cn">Docusaurus</a> 
+ Build with 🦖<a href="https://disnox.top">Docusaurus</a> 
 </pre>
 
 <p align="center">
 <br>
-<a href="https://kuizuo.cn">🖥 Online Preview</a>
+<a href="https://disnox.top">🖥 Online Preview</a>
 <br><br> 
-<a href="https://vercel.com/new/clone?repository-url=https://github.com/kuizuo/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/kuizuo/blog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
-<a href="https://stackblitz.com/github/kuizuo/blog" rel="nofollow"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg"></a>
+<a href="https://vercel.com/new/clone?repository-url=https://github.com/disnox/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/disnox/blog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+<a href="https://stackblitz.com/github/disnox/blog" rel="nofollow"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg"></a>
 </p>
 
 ## Introduction
 
-在这里你能了解到各类实战开发的所遇到的问题，帮助你在学习的过程了解最新的技术栈，并希望我的个人经历对你有所启发。
+我在这里记录一些知识，以免遗忘，也希望对你有用，请随意浏览～
 
 ## Install
 
 ```sh
-git clone https://github.com/kuizuo/blog.git
+git clone https://github.com/disnox/blog.git
 cd blog
 yarn
 yarn run start
@@ -61,4 +61,4 @@ yarn run build
 
 ## License
 
-[MIT](https://github.com/kuizuo/blog/blob/main/LICENSE)
+[MIT](https://github.com/disnox/blog/blob/main/LICENSE)

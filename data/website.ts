@@ -94,17 +94,24 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://hoppscotch.io/',
         tags: ['api'],
       },
+      {
+        name: '菜鸟教程',
+        desc: '学的不仅是技术，更是梦想！',
+        logo: 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/FD715D45-8A4B-4B77-BDA1-D75D7226AACB.jpeg-1609660318596',
+        href: 'https://www.runoob.com/',
+        tags: ['教程'],
+      },
     ],
   },
   {
     name: '工具',
     websites: [
       {
-        name: '菜鸟教程',
-        desc: '学的不仅是技术，更是梦想！',
-        logo: 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/FD715D45-8A4B-4B77-BDA1-D75D7226AACB.jpeg-1609660318596',
+        name: 'VsCode',
+        desc: '非常好用的代码编辑器',
+        logo: '/img/website/vscode.ico',
         href: 'https://code.visualstudio.com/',
-        tags: ['教程'],
+        tags: ['工具'],
       },
       {
         name: '在线工具',
@@ -475,7 +482,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'Bootstrap',
         desc: 'Bootstrap 是全球最受欢迎的前端开源工具库，它支持 Sass 变量和 mixin、响应式栅格系统、自带大量组件和众多强大的 JavaScript 插件。基于 Bootstrap 提供的强大功能，能够让你快速设计并定制你的网站',
-        logo: 'https://img.kuizuo.cn/20210907055816.png',
+        logo: 'https://img.disnox.cn/20210907055816.png',
         href: 'https://v5.bootcss.com/',
         tags: ['Css', '框架'],
       },
