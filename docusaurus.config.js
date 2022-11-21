@@ -5,7 +5,7 @@ const announcementBarContent = `<span>新增 <a href='/protocol-template'>Protoc
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: '📺尚宇的小站',
   titleDelimiter: '-',
   url: 'https://kuizuo.cn',
   baseUrl: '/',
@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content:'愧怍'
+        content:'📺尚宇'
       },
       {
         name: 'keywords',
@@ -36,9 +36,9 @@ const config = {
       }
     },
     navbar: {
-      title: '愧怍',
+      title: '📺尚宇',
       logo: {
-        alt: '愧怍',
+        alt: '📺尚宇',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -173,7 +173,7 @@ const config = {
         ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 📺尚宇 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -282,8 +282,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '📺尚宇',
+          copyright: `Copyright © ${new Date().getFullYear()} 📺尚宇 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       }
     ],
