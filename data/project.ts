@@ -1,20 +1,20 @@
 export const projects: Project[] = [
-  // {
-  //   title: '📺尚宇的小站',
-  //   description: '基于Docusaurus v2 静态网站生成器实现个人博客',
-  //   preview: '/img/blog/blog.png',
-  //   website: 'https://disnox.top',
-  //   source: 'https://github.com/disnox/blog',
-  //   tags: ['opensource', 'design', 'favorite'],
-  //   type: 'Design',
-  // },
   {
-    title: 'FOC',
-    description: 'FOC无刷电机驱动的实现',
-    website: ' ',
-    source: 'https://github.com/disnox/blog',
-    tags: ['opensource', 'favorite', 'design'],
-    type: 'Design'
+    title: '尚宇的小站',
+    description: '基于Docusaurus v2 静态网站生成器实现个人博客',
+    preview: '/img/blog/blog.png',
+    website: 'https://kuizuo.cn',
+    source: 'https://github.com/kuizuo/blog',
+    tags: ['opensource', 'design', 'favorite'],
+    type: 'web',
+  },
+
+  {
+    title: 'test',
+    description: 'test',
+    website: 'https://github.com/kuizuo/mini-vue',
+    tags: ['opensource'],
+    type: 'personal'
   },
 ]
 

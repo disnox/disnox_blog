@@ -55,7 +55,7 @@ function Hero() {
                 </Link>
               ),
               project: (
-                <Link to="/project">
+                <Link to="/project/">
                   <Translate id="hompage.hero.text.project">实战项目</Translate>
                   
                 </Link>
