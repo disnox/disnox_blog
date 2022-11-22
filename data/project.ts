@@ -3,10 +3,10 @@ export const projects: Project[] = [
     title: '尚宇的小站',
     description: '（强烈推荐）参考愧怍的开源项目实现的个人博客（基于Docusaurus v2 静态网站生成器）',
     preview: '/img/blog/blog.png',
-    website: 'https://kuizuo.cn',
+    website: 'https://disnox.top',
     source: 'https://github.com/disnox/disnox_blog',
     tags: ['opensource', 'design', 'favorite'],
-    type: 'Copy',
+    type: '📷Copy',
   },
 
   {
@@ -14,7 +14,7 @@ export const projects: Project[] = [
     description: 'test',
     website: 'https://github.com/mini-vue',
     tags: ['opensource'],
-    type: 'Project'
+    type: '🤖Project'
   },
 ]
 
@@ -34,9 +34,9 @@ export type TagType =
 
 export type ProjectType =
   | 'Personal'
-  | 'Project'
+  | '🤖Project'
   | 'Web'
-  | 'Copy'
+  | '📷Copy'
   | 'App'
   | 'Other';
 
