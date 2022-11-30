@@ -91,6 +91,8 @@ const sidebars = {
       type: 'generated-index',
       },
       items: [
+          'skill/C/FILE_IO/file',
+          'skill/C/FILE_IO/system_io',
           'skill/C/FILE_IO/file_rw',
           ]        
      },
@@ -107,7 +109,6 @@ const sidebars = {
     //     },
     //   ],
     // },
-
     {
       label: '嵌入式开发-硬件',
       type: 'category',

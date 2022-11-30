@@ -107,7 +107,7 @@ const ShowcaseCard = memo(({ project }: { project: Project }) => {
                 styles.showcaseCardSrcBtn
               )}
             >
-              project
+              source
             </Link>
           )}
         </div>
