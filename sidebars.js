@@ -96,6 +96,16 @@ const sidebars = {
           'skill/C/FILE_IO/file_rw',
           ]        
      },
+     {
+      label: 'Linux 系统编程',
+      type: 'category',
+      link: {
+      type: 'generated-index',
+      },
+      items: [
+          'skill/linux/process',
+          ]        
+     },
     // {
     //   label: 'C 语言',
     //   type: 'category',

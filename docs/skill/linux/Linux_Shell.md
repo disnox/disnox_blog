@@ -3,7 +3,7 @@ id: Linux_shell
 slug: /Linux_shell
 title: Linux Shell
 date: 2022-10-27
-authors: nox
+authors: disnox
 tags: [Linux]
 keywords: [Linux]
 ---

@@ -3,7 +3,7 @@ id: Linux_introduction
 slug: /Linux_introduction
 title: Linux 概述
 date: 2022-10-26
-authors: nox
+authors: disnox
 tags: [Linux]
 keywords: [Linux]
 ---
@@ -98,4 +98,3 @@ Linux 的发行版说简单点就是将 Linux 内核与应用软件做一个打�
 
 ![ZVk10Y.png](https://www.helloimg.com/images/2022/10/30/ZVk10Y.png)
 
-## 
