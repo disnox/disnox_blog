@@ -17,7 +17,13 @@ export const Friends: Friend[] = [
     website: 'https://xyljy.top/',
     avatar: require('./avatar/ljy.png'),
   },
-  
+  {
+    title: '啵贝琴',
+    description: '硬件开发、软件编程基层人员',
+    website: 'https://littlefairy.top/',
+    avatar: require('./avatar/1.png'),
+  },
+
 ];
 
 export type Friend = {
