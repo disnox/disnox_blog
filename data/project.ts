@@ -1,5 +1,15 @@
 export const projects: Project[] = [
   {
+    title: '客运购票系统',
+    description: '采用 Linux 内核链表搭建的C语言系统，满足大部分需求，学习使用',
+    preview: '/img/blog/kernel_list.png',
+    website: ' ',
+    source: 'https://github.com/disnox/disnox_blog',
+    tags: ['opensource', 'favorite', 'design'],
+    type: '🤖Project'
+  },
+
+  {
     title: '尚宇的小站',
     description: '（强烈推荐）参考愧怍的开源项目实现的个人博客（基于Docusaurus v2 静态网站生成器）',
     preview: '/img/blog/blog.png',
@@ -7,14 +17,6 @@ export const projects: Project[] = [
     source: 'https://github.com/disnox/disnox_blog',
     tags: ['opensource', 'design', 'favorite'],
     type: '📷Copy',
-  },
-
-  {
-    title: 'test',
-    description: 'test',
-    website: 'https://github.com/mini-vue',
-    tags: ['opensource'],
-    type: '🤖Project'
   },
 ]
 
