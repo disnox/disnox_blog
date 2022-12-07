@@ -1,12 +1,21 @@
 export const projects: Project[] = [
+  // {
+  //   title: '客运购票系统',
+  //   description: '采用 Linux 内核链表搭建的C语言系统，满足大部分需求，学习使用',
+  //   preview: '/img/blog/kernel_list.png',
+  //   website: ' ',
+  //   source: 'https://github.com/disnox/ticket_system',
+  //   tags: ['opensource', 'favorite', 'design'],
+  //   type: '🤖Project'
+  // },
   {
     title: '客运购票系统',
     description: '采用 Linux 内核链表搭建的C语言系统，满足大部分需求，学习使用',
     preview: '/img/blog/kernel_list.png',
-    website: ' ',
+    website: 'https://github.com/disnox/ticket_system',
     source: 'https://github.com/disnox/ticket_system',
-    tags: ['opensource', 'favorite', 'design'],
-    type: '🤖Project'
+    tags: ['opensource', 'design', 'favorite'],
+    type: '💻Linux',
   },
 
   {
@@ -18,6 +27,7 @@ export const projects: Project[] = [
     tags: ['opensource', 'design', 'favorite'],
     type: '📷Copy',
   },
+
 ]
 
 export type Tag = {
@@ -35,7 +45,8 @@ export type TagType =
   | 'personal';
 
 export type ProjectType =
-  | 'Personal'
+  | '💻Linux'
+  | '🧠Personal'
   | '🤖Project'
   | 'Web'
   | '📷Copy'
