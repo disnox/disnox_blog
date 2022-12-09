@@ -103,7 +103,8 @@ const sidebars = {
       type: 'generated-index',
       },
       items: [
-          'skill/linux/process',
+          'skill/C/System/process',
+          'skill/C/System/thread',
           ]        
      },
     // {
