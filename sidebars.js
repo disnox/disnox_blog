@@ -105,6 +105,7 @@ const sidebars = {
       items: [
           'skill/C/System/process',
           'skill/C/System/thread',
+          'skill/C/System/thread_scheduling',
           ]        
      },
     // {
