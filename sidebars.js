@@ -106,6 +106,8 @@ const sidebars = {
           'skill/C/System/process',
           'skill/C/System/thread',
           'skill/C/System/thread_scheduling',
+          'skill/C/System/posix',
+          'skill/C/System/mutex',
           ]        
      },
     // {
