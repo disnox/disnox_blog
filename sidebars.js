@@ -93,8 +93,8 @@ const sidebars = {
       items: [
           'skill/C/FILE_IO/file',
           'skill/C/FILE_IO/system_io',
-          'skill/C/FILE_IO/system_ios',
-          'skill/C/FILE_IO/file_rw',
+          'skill/C/FILE_IO/standard_io',
+          'skill/C/FILE_IO/stat',
           ]        
      },
      {
