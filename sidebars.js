@@ -95,6 +95,7 @@ const sidebars = {
           'skill/C/FILE_IO/system_io',
           'skill/C/FILE_IO/standard_io',
           'skill/C/FILE_IO/stat',
+          'skill/C/FILE_IO/dir',
           ]        
      },
      {
