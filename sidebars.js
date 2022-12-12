@@ -110,6 +110,9 @@ const sidebars = {
           'skill/C/System/thread_scheduling',
           'skill/C/System/posix',
           'skill/C/System/mutex',
+          'skill/C/System/rwlock',
+          'skill/C/System/cond',
+          'skill/C/System/reen',
           ]        
      },
     {
