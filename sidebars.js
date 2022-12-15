@@ -106,6 +106,8 @@ const sidebars = {
       },
       items: [
           'skill/C/System/process',
+          'skill/C/System/pro_api',
+          'skill/C/System/pipe',
           'skill/C/System/thread',
           'skill/C/System/thread_scheduling',
           'skill/C/System/posix',
@@ -132,7 +134,7 @@ const sidebars = {
             'skill/hardware/component/Res',
             'skill/hardware/component/Cap',
             'skill/hardware/component/MOS',
-              ]        
+            ]        
          },
          {
           label: '常用电路分析',
