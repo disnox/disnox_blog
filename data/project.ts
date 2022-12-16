@@ -1,13 +1,4 @@
 export const projects: Project[] = [
-  // {
-  //   title: '客运购票系统',
-  //   description: '采用 Linux 内核链表搭建的C语言系统，满足大部分需求，学习使用',
-  //   preview: '/img/blog/kernel_list.png',
-  //   website: ' ',
-  //   source: 'https://github.com/disnox/ticket_system',
-  //   tags: ['opensource', 'favorite', 'design'],
-  //   type: '🤖Project'
-  // },
   {
     title: '客运购票系统',
     description: '采用 Linux 内核链表搭建的C语言系统，满足大部分需求，学习使用',
@@ -15,9 +6,24 @@ export const projects: Project[] = [
     website: 'https://github.com/disnox/ticket_system',
     source: 'https://github.com/disnox/ticket_system',
     tags: ['opensource', 'design', 'favorite'],
-    type: '💻Linux',
+    type: '🤖Project',
   },
-
+  {
+    title: '线程池示例（内核链表）',
+    description: '使用内核链表搭建的线程池示例',
+    website: 'https://www.disnox.top/thread_pool2',
+    source: 'https://github.com/disnox/thread_pool',
+    tags: ['opensource', 'design', 'favorite'],
+    type: '🌊Example',
+  },
+  {
+    title: '线程池示例（单向链表）',
+    description: '使用单向链表搭建的线程池示例',
+    website: 'https://www.disnox.top/thread_pool1',
+    source: 'https://github.com/disnox/pool',
+    tags: ['opensource', 'design', 'favorite'],
+    type: '🌊Example',
+  },
   {
     title: '尚宇的小站',
     description: '（强烈推荐）参考愧怍的开源项目实现的个人博客（基于Docusaurus v2 静态网站生成器）',
@@ -27,7 +33,6 @@ export const projects: Project[] = [
     tags: ['opensource', 'design', 'favorite'],
     type: '📷Copy',
   },
-
 ]
 
 export type Tag = {
@@ -48,6 +53,7 @@ export type ProjectType =
   | '💻Linux'
   | '🧠Personal'
   | '🤖Project'
+  | '🌊Example'
   | 'Web'
   | '📷Copy'
   | 'App'
