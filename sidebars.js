@@ -120,6 +120,7 @@ const sidebars = {
           'skill/C/System/rwlock',
           'skill/C/System/cond',
           'skill/C/System/reen',
+          'skill/C/System/thread_pool',
           ]        
      },
     {
