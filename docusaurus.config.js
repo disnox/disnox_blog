@@ -222,9 +222,9 @@ const config = {
     },
     giscus: {
       repo: 'disnox/disnox_blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      repoId: 'R_kgDOIS7BTg',
       category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      categoryId: 'DIC_kwDOIS7BTs4CSN3O',
       mapping: 'title',
       lang: 'zh-CN',
     },
