@@ -66,10 +66,6 @@ const config = {
           position: 'right',
           items: [
             {
-              label: '📁归档',
-              to: 'docs/blogs/',
-            },
-            {
               label: '⏲时间轴',
               to: 'archive',
             },

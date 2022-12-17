@@ -177,6 +177,17 @@ const sidebars = {
   ],
   diary: [
     'diary/introduction',
+    {
+      label: 'Linux',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'skill/linux/Linux_introduction',
+        'skill/linux/Linux_shell',
+      ],
+  },
   ],
 }
 
