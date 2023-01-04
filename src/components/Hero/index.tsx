@@ -97,7 +97,7 @@ function Hero() {
             <Translate id="hompage.hero.text.introduce">自我介绍</Translate>
           </Button>
           <span>　</span> 
-          <Button isLink href="https://kdocs.cn/l/cp0rLMrgfABF">
+          <Button isLink href={'./about'}>
             <Translate id="hompage.hero.text.introduce">个人简历</Translate>
           </Button>
           {/* <span>　</span> 
