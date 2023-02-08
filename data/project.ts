@@ -9,6 +9,15 @@ export const projects: Project[] = [
     type: '🤖Project',
   },
   {
+    title: '自助点餐系统',
+    description: '基于 Linux 和 C语言 的自助点餐系统',
+    preview: '/img/blog/self.png',
+    website: 'https://github.com/disnox/self_order',
+    source: 'https://github.com/disnox/self_order',
+    tags: ['opensource', 'design', 'favorite'],
+    type: '🤖Project',
+  },
+  {
     title: '线程池示例（内核链表）',
     description: '使用内核链表搭建的线程池示例',
     website: 'https://www.disnox.top/thread_pool2',
