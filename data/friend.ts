@@ -19,9 +19,15 @@ export const Friends: Friend[] = [
   },
   {
     title: '小佬头',
-    description: ' 暗黑烧板王',
+    description: ' 暗黑烧板王 ',
     website: 'https://boooom.cn/',
     avatar: require('./avatar/xlt.png'),
+  },
+  {
+    title: '月月鸟的碎碎念',
+    description: ' 群里最强 ',
+    website: 'https://kugeek.cn/',
+    avatar: require('./avatar/turing.png'),
   },
   {
     title: '啵贝琴',
