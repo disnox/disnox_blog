@@ -18,6 +18,12 @@ export const Friends: Friend[] = [
     avatar: require('./avatar/ljy.png'),
   },
   {
+    title: '小佬头',
+    description: ' 暗黑烧板王',
+    website: 'https://boooom.cn/',
+    avatar: require('./avatar/xlt.png'),
+  },
+  {
     title: '啵贝琴',
     description: '硬件开发、软件编程基层人员',
     website: 'https://littlefairy.top/',
