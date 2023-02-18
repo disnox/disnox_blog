@@ -18,6 +18,15 @@ export const projects: Project[] = [
     type: '🤖Project',
   },
   {
+    title: '文件服务器',
+    description: '基于 Linux网络编程 和 C语言 的自助点餐系统',
+    preview: '/img/blog/server.png',
+    website: 'https://github.com/disnox/file_server',
+    source: 'https://github.com/disnox/file_server',
+    tags: ['opensource', 'design', 'favorite'],
+    type: '🤖Project',
+  },
+  {
     title: '线程池示例（内核链表）',
     description: '使用内核链表搭建的线程池示例',
     website: 'https://www.disnox.top/thread_pool2',

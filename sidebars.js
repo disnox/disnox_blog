@@ -123,6 +123,16 @@ const sidebars = {
           'skill/C/System/thread_pool',
           ]        
      },
+     {
+      label: 'Linux 网络编程',
+      type: 'category',
+      link: {
+      type: 'generated-index',
+      },
+      items: [
+          'skill/C/Network/socket',
+          ]        
+     },
     {
       label: '硬件基础',
       type: 'category',
