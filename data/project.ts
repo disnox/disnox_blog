@@ -19,7 +19,7 @@ export const projects: Project[] = [
   },
   {
     title: '文件服务器',
-    description: '基于 Linux网络编程 和 C语言 的自助点餐系统',
+    description: '基于 Linux网络编程 和 C语言 的文件服务器',
     preview: '/img/blog/server.png',
     website: 'https://github.com/disnox/file_server',
     source: 'https://github.com/disnox/file_server',
