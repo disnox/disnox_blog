@@ -52,11 +52,11 @@ const config = {
               to: 'docs/skill/',
             },
             {
-              label: '📂高效工作指南',
-              to: 'docs/tools/',
+              label: '🗂️项目介绍',
+              to: 'docs/project_group/',
             },
             {
-              label: '🗂️项目介绍',
+              label: '📂高效工作指南',
               to: 'docs/tools/',
             },
           ],

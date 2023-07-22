@@ -199,6 +199,19 @@ const sidebars = {
       ],
   },
   ],
+  project_group: [
+    'project_group/introduction',
+    {
+      label: 'Robot',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'project_group/robot/oxdriver',
+      ],
+  },
+  ],
 }
 
 module.exports = sidebars
