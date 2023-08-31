@@ -24,27 +24,26 @@ const FeatureList: FeatureItem[] = [
     Svg: WebDeveloperSvg,
     description: (
       <>
-        作为一名 TypeScript 全栈工程师，秉着能用 TS 绝不用 JS
-        的原则，为项目提供类型安全的保障，提高代码质量和开发效率。
+        深度融合软硬件知识，致力于创造高效嵌入式系统的工程师，希望自己能够拥有更加丰富的跨领域知识和实践经验。
       </>
     ),
   },
   {
     title: translate({
       id: 'homepage.feature.spider',
-      message: '会点逆向 & 爬虫',
+      message: '机器人爱好者',
     }),
     Svg: SpiderSvg,
     description: (
       <>
-        作为一名曾学习与实践逆向工程两年半的开发者，对于逆向工程有着浓厚的兴趣，同时造就了超凡的阅读代码能力。没有看不懂的代码，只有不想看的代码。
+        热衷于机器人与电子技术，追求创新设计与制作，致力于将电子元件赋予生命，希望能创造出更加智能化和有趣的机器人系统。
       </>
     ),
   },
   {
     title: translate({
       id: 'homepage.feature.enthusiast',
-      message: '机器人爱好者',
+      message: '开源爱好者',
     }),
     Svg: OpenSourceSvg,
     description: (
