@@ -2,7 +2,7 @@ const path = require('path')
 const beian = 'CC BY-NC 4.0'
 
 // const announcementBarContent = ''
-// const announcementBarContent = `<span>🌟新入站必读 <a href='/test'>🌟</a></span>`
+const announcementBarContent = `<span>🌟新入站必读 <a href='/test'>小站使用指南🌟</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -16,10 +16,10 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
-    // announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: announcementBarContent,
-    // },
+    announcementBar: {
+      id: 'announcementBar-3',
+      content: announcementBarContent,
+    },
     metadata: [
       {
         name: 'keywords',
@@ -175,7 +175,7 @@ const config = {
           ],
         },
       ],
-      // copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      // copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 尚宇 Built with Docusaurus.</p>`,
       copyright: `本站所有内容遵循<a href="https://creativecommons.org/licenses/by/4.0/deed.zh" >${beian}</a>开源协议，仅限非商业性使用，转载请注明出处</p><p>Copyright © 2022 - PRESENT 尚宇 Built with Docusaurus.</p>`,
     },
     prism: {

@@ -62,7 +62,7 @@ export const projects: Project[] = [
   },
   {
     title: '尚宇的小站',
-    description: '（强烈推荐）参考愧怍的开源项目实现的个人博客（基于Docusaurus v2 静态网站生成器）',
+    description: '（强烈推荐）参考尚宇的开源项目实现的个人博客（基于Docusaurus v2 静态网站生成器）',
     preview: '/img/project/blog.png',
     website: 'https://disnox.top',
     source: 'https://github.com/disnox/disnox_blog',

@@ -6,7 +6,7 @@ export const Friends: Friend[] = [
     avatar: '/img/friend/zxuqian.png',
   },
   {
-    title: '愧怍',
+    title: '尚宇',
     description: ' 保持学习，希望在有限的时间内，学到无限的可能',
     website: 'https://kuizuo.cn/',
     avatar: '/img/friend/kuizuo.png',
