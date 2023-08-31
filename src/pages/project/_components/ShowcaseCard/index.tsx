@@ -1,21 +1,20 @@
-import React, { memo, useEffect, useRef } from 'react';
-import clsx from 'clsx';
-import Image from '@theme/IdealImage';
-import Link from '@docusaurus/Link';
-import { useSpring, animated, to } from '@react-spring/web';
-
-import styles from './styles.module.css';
-import FavoriteIcon from '@site/src/components/svgIcons/FavoriteIcon';
-import Tooltip from '../ShowcaseTooltip';
+import React, { memo, useEffect, useRef } from 'react'
+import clsx from 'clsx'
+import Image from '@theme/IdealImage'
+import Link from '@docusaurus/Link'
+import Translate from '@docusaurus/Translate'
+import { motion } from 'framer-motion'
+import styles from './styles.module.css'
+import FavoriteIcon from '@site/src/components/svgIcons/FavoriteIcon'
+import Tooltip from '../ShowcaseTooltip'
 import {
   Tags,
   TagList,
   type TagType,
   type Project,
   type Tag,
-} from '@site/data/project';
-import { sortBy } from '@site/src/utils/jsUtils';
-import { useGesture } from 'react-use-gesture';
+} from '@site/data/project'
+import { sortBy } from '@site/src/utils/jsUtils'
 
 const TagComp = React.forwardRef<HTMLLIElement, Tag>(
   ({ label, color, description }, ref) => (
@@ -23,21 +22,21 @@ const TagComp = React.forwardRef<HTMLLIElement, Tag>(
       <span className={styles.textLabel}>{label.toLowerCase()}</span>
       <span className={styles.colorLabel} style={{ backgroundColor: color }} />
     </li>
-  )
-);
+  ),
+)
 
 function ShowcaseCardTag({ tags }: { tags: TagType[] }) {
-  const tagObjects = tags.map((tag) => ({ tag, ...Tags[tag] }));
+  const tagObjects = tags.map(tag => ({ tag, ...Tags[tag] }))
 
   // Keep same order for all tags
-  const tagObjectsSorted = sortBy(tagObjects, (tagObject) =>
-    TagList.indexOf(tagObject.tag)
-  );
+  const tagObjectsSorted = sortBy(tagObjects, tagObject =>
+    TagList.indexOf(tagObject.tag),
+  )
 
   return (
     <>
       {tagObjectsSorted.map((tagObject, index) => {
-        const id = `showcase_card_tag_${tagObject.tag}`;
+        const id = `showcase_card_tag_${tagObject.tag}`
 
         return (
           <Tooltip
@@ -48,45 +47,28 @@ function ShowcaseCardTag({ tags }: { tags: TagType[] }) {
           >
             <TagComp key={index} {...tagObject} />
           </Tooltip>
-        );
+        )
       })}
     </>
-  );
+  )
 }
 
 const ShowcaseCard = memo(({ project }: { project: Project }) => {
-  const domTarget = useRef(null);
-  const [{ scale, zoom }, api] = useSpring(() => ({
-    scale: 1,
-    zoom: 0,
-    config: {
-      mass: 5,
-      tension: 500,
-      friction: 40,
-    },
-  }));
-
-  useGesture(
-    {
-      onHover: ({ hovering }) =>
-        hovering ? api({ scale: 1.05 }) : api({ scale: 1 }),
-    },
-    { domTarget, eventOptions: { passive: false } }
-  );
-
   return (
-    <animated.li
-      ref={domTarget}
-      style={{
-        transform: 'perspective(100px)',
-        scale: to([scale, zoom], (s, z) => s + z),
-      }}
+    <motion.li
       key={project.title}
       className={clsx('card shadow--md', styles.showcaseCard)}
+      whileHover={{ scale: 1.025 }}
+      whileTap={{ scale: 0.975 }}
+      transition={{ type: 'spring', stiffness: 400, damping: 10 }}
     >
       {project.preview && (
         <div className={clsx('card__image', styles.showcaseCardImage)}>
-          <Image src={project.preview} alt={project.title} img={''}/>
+          <Image
+            src={project.preview}
+            alt={project.title}
+            img={project.preview}
+          />
         </div>
       )}
       <div className="card__body">
@@ -104,10 +86,10 @@ const ShowcaseCard = memo(({ project }: { project: Project }) => {
               href={project.source}
               className={clsx(
                 'button button--secondary button--sm',
-                styles.showcaseCardSrcBtn
+                styles.showcaseCardSrcBtn,
               )}
             >
-              工程
+              <Translate id="showcase.card.sourceLink">源码</Translate>
             </Link>
           )}
         </div>
@@ -116,8 +98,8 @@ const ShowcaseCard = memo(({ project }: { project: Project }) => {
       <ul className={clsx('card__footer', styles.cardFooter)}>
         <ShowcaseCardTag tags={project.tags} />
       </ul>
-    </animated.li>
-  );
-});
+    </motion.li>
+  )
+})
 
-export default ShowcaseCard;
+export default ShowcaseCard

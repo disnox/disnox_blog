@@ -3,166 +3,308 @@ const sidebars = {
   skill: [
     'skill/introduction',
     {
-        label: 'Linux',
-        type: 'category',
-        link: {
-          type: 'generated-index',
-        },
-        items: [
-          'skill/linux/Linux_introduction',
-          'skill/linux/Linux_shell',
-        ],
+      label: 'Docusaurus 主题魔改',
+      type: 'category',
+      link: {
+        type: 'doc',
+        id: 'skill/docusaurus/docusaurus-guides'
+      },
+      items: [
+        'skill/docusaurus/docusaurus-config',
+        'skill/docusaurus/docusaurus-style',
+        'skill/docusaurus/docusaurus-component',
+        'skill/docusaurus/docusaurus-plugin',
+        'skill/docusaurus/docusaurus-search',
+        'skill/docusaurus/docusaurus-comment',
+        'skill/docusaurus/docusaurus-deploy',
+      ],
     },
-
     {
-      label: 'C 语言',
+      label: '代码规范',
+      type: 'category',
+      link: {
+        type: 'doc',
+        id: 'skill/code-specification/code-specification-guides'
+      },
+      items: [
+        'skill/code-specification/eslint',
+        'skill/code-specification/prettier',
+        'skill/code-specification/stylelint',
+        'skill/code-specification/editorconfig',
+        'skill/code-specification/husky',
+        'skill/code-specification/npmrc',
+      ],
+    },
+    {
+      label: 'Vue',
       type: 'category',
       link: {
         type: 'generated-index',
       },
       items: [
-              'skill/C/C_Basic/C_brief_introduction',
-              'skill/C/C_Basic/C_environment_settings',
-              'skill/C/C_Basic/C_program_structure',
-              'skill/C/C_Basic/C_basic_syntax',
-              'skill/C/C_Basic/C_keyword',
-              'skill/C/C_Basic/C_datetype',
-              'skill/C/C_Basic/C_variable_constant',
-              'skill/C/C_Basic/C_operator',
-              'skill/C/C_Basic/C_control_flow',
-              'skill/C/C_Basic/C_function',
-              'skill/C/C_Basic/C_array',
-                {
-                  label: 'C 指针',
-                  type: 'category',
-                  link: {
-                  type: 'generated-index',
-                  },
-                  items: [
-                    'skill/C/C_Basic/C_pointer',
-                    'skill/C/C_Basic/C_two_pointer',
-                    'skill/C/C_Basic/C_pointer_and_array',
-                    'skill/C/C_Basic/C_pointer_array_and_pointer_array',
-                  ]
-                },
-              'skill/C/C_Basic/C_character_string',
-              'skill/C/C_Basic/C_function_order',
-              'skill/C/C_Basic/C_pointer_High_level_issues',      
-                {
-                  label: 'C 复杂类型',
-                  type: 'category',
-                  link: {
-                  type: 'generated-index',
-                  },
-                  items: [
-                    'skill/C/C_Basic/C_typedef',
-                    'skill/C/C_Basic/C_struct',
-                    'skill/C/C_Basic/C_union_enum',
-                    'skill/C/C_Basic/C_struct_size',
-                  ]
-                },
-              'skill/C/C_Basic/C_memory',
-              'skill/C/C_Basic/C_scope',
-              'skill/C/C_Basic/C_pretreatment',
+        'skill/vue/vue-reactive-data-object',
+        'skill/vue/vue-reactive-data-array',
+        'skill/vue/vue-reactive-data-basic-type',
+        'skill/vue/pinia',
       ],
     },
     {
-      label: '数据结构',
-      type: 'category',
-      link: {
-      type: 'generated-index',
-      },
-      items: [
-          'skill/C/C_Data_Structure/data_structure',
-          'skill/C/C_Data_Structure/linear_table',
-          'skill/C/C_Data_Structure/single_linked_list',
-          'skill/C/C_Data_Structure/singly_loop_linked_list',
-          'skill/C/C_Data_Structure/double_linked_list',
-          'skill/C/C_Data_Structure/inline_list',
-          'skill/C/C_Data_Structure/stack',
-          'skill/C/C_Data_Structure/queue',
-          'skill/C/C_Data_Structure/binary_tree',
-          ]        
-     },
-     {
-      label: 'IO 编程技术',
-      type: 'category',
-      link: {
-      type: 'generated-index',
-      },
-      items: [
-          'skill/C/FILE_IO/file',
-          'skill/C/FILE_IO/system_io',
-          'skill/C/FILE_IO/standard_io',
-          'skill/C/FILE_IO/stat',
-          'skill/C/FILE_IO/dir',
-          ]        
-     },
-     {
-      label: 'Linux 系统编程',
-      type: 'category',
-      link: {
-      type: 'generated-index',
-      },
-      items: [
-          'skill/C/System/process',
-          'skill/C/System/pro_api',
-          'skill/C/System/pipe',
-          'skill/C/System/signal',
-          'skill/C/System/ipc',
-          'skill/C/System/msg',
-          'skill/C/System/sem',
-          'skill/C/System/shm',
-          'skill/C/System/thread',
-          'skill/C/System/thread_scheduling',
-          'skill/C/System/posix',
-          'skill/C/System/mutex',
-          'skill/C/System/rwlock',
-          'skill/C/System/cond',
-          'skill/C/System/reen',
-          'skill/C/System/thread_pool',
-          ]        
-     },
-     {
-      label: 'Linux 网络编程',
-      type: 'category',
-      link: {
-      type: 'generated-index',
-      },
-      items: [
-          'skill/C/Network/socket',
-          ]        
-     },
-    {
-      label: '硬件基础',
+      label: 'React',
       type: 'category',
       link: {
         type: 'generated-index',
       },
       items: [
         {
-          label: '元器件基础',
+          type: 'autogenerated',
+          dirName: 'skill/react',
+        },
+      ],
+    },
+    {
+      label: 'Web',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/web',
+        },
+      ],
+    },
+    {
+      label: 'JavaScript',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/js',
+        },
+      ],
+    },
+    {
+      label: 'Node',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/node',
+        },
+      ],
+    },
+    {
+      label: 'Css',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/css',
+        },
+      ],
+    },
+    {
+      label: 'Java',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/java',
+        },
+      ],
+    },
+    {
+      label: 'Python',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/python',
+        },
+      ],
+    },
+    {
+      label: 'Go',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'skill/go/go-environment-install',
+        'skill/go/go-json-usage',
+        'skill/go/go-send-http-request',
+        'skill/go/go-call-js',
+        'skill/go/go-concurrent',
+        'skill/go/try-gin-framework'
+      ],
+    },
+    {
+      label: 'Git',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/git',
+        },
+      ],
+    },
+    {
+      label: '算法',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/algorithm',
+        },
+      ],
+    },
+    {
+      label: '逆向',
+      type: 'category',
+      link: {
+        title: '逆向笔记',
+        description: 'Web逆向与安卓逆向笔记',
+        type: 'generated-index',
+        keywords: ['reverse', 'web', 'android', 'frida'],
+      },
+      items: [
+        {
+          label: '安卓',
           type: 'category',
           link: {
-          type: 'generated-index',
+            type: 'generated-index',
           },
           items: [
-            'skill/hardware/component/Res',
-            'skill/hardware/component/Cap',
-            'skill/hardware/component/MOS',
-            ]        
-         },
-         {
-          label: '常用电路分析',
+            {
+              type: 'autogenerated',
+              dirName: 'skill/reverse/android',
+            },
+          ],
+        },
+        {
+          label: 'Web',
+          type: 'category',
+          items: [
+            {
+              type: 'autogenerated',
+              dirName: 'skill/reverse/web',
+            },
+          ],
+        },
+        {
+          label: '密码学',
+          type: 'category',
+          items: [
+            {
+              type: 'autogenerated',
+              dirName: 'skill/reverse/crypto',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      label: 'Docker',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        {
+          type: 'autogenerated',
+          dirName: 'skill/docker',
+        },
+      ],
+    },
+    {
+      label: '数据库',
+      type: 'category',
+      link: {
+        // title: '',
+        // description: '',
+        type: 'generated-index',
+        keywords: ['database', 'mysql', 'mongodb', 'redis', 'elasticsearch'],
+      },
+      items: [
+        {
+          label: 'Mysql',
           type: 'category',
           link: {
-          type: 'generated-index',
+            type: 'doc',
+            id: 'skill/database/mysql/mysql-note',
           },
           items: [
-
-              ]        
-         },
-      ]
+            {
+              type: 'autogenerated',
+              dirName: 'skill/database/mysql',
+            },
+          ],
+        },
+        {
+          label: 'MongoDB',
+          type: 'category',
+          link: {
+            type: 'doc',
+            id: 'skill/database/mongo/mongodb-note',
+          },
+          items: [
+            {
+              type: 'autogenerated',
+              dirName: 'skill/database/mongo',
+            },
+          ],
+        },
+        {
+          label: 'Redis',
+          type: 'category',
+          link: {
+            type: 'doc',
+            id: 'skill/database/redis/redis-note',
+          },
+          items: [
+            {
+              type: 'autogenerated',
+              dirName: 'skill/database/redis',
+            },
+          ],
+        },
+        {
+          label: 'Elasticsearch',
+          type: 'category',
+          link: {
+            type: 'doc',
+            id: 'skill/database/elasticsearch/elasticsearch-note',
+          },
+          items: [
+            {
+              type: 'autogenerated',
+              dirName: 'skill/database/elasticsearch',
+            },
+          ],
+        },
+      ],
     },
     {
       label: '杂项',
@@ -181,37 +323,13 @@ const sidebars = {
   tools: [
     'tools/introduction',
     'tools/everything-quick-search-local-files',
+    'tools/wappalyzer-recognize-technology',
     'tools/windows-custom-right-click-menu',
-    'tools/windows-terminal-beautify',
     'tools/vscode-config',
-  ],
-  diary: [
-    'diary/introduction',
-    {
-      label: 'Linux',
-      type: 'category',
-      link: {
-        type: 'generated-index',
-      },
-      items: [
-        'skill/linux/Linux_introduction',
-        'skill/linux/Linux_shell',
-      ],
-  },
-  ],
-  project_group: [
-    'project_group/introduction',
-    {
-      label: 'Robot',
-      type: 'category',
-      link: {
-        type: 'generated-index',
-      },
-      items: [
-        'project_group/robot/oxdriver',
-      ],
-  },
-  ],
+    'tools/idea-config',
+    'tools/vite-plugin',
+    'tools/jetbrains-product-activation-method',
+  ]
 }
 
 module.exports = sidebars

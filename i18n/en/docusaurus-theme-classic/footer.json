@@ -11,6 +11,10 @@
     "message": "More",
     "description": "The title of the footer links column with title=更多 in the footer"
   },
+  "link.item.label.博客": {
+    "message": "Blogs",
+    "description": "The label of footer link with label=博客 linking to tags"
+  },
   "link.item.label.标签": {
     "message": "Tags",
     "description": "The label of footer link with label=标签 linking to tags"
@@ -29,7 +33,7 @@
   },
   "link.item.label.前端示例": {
     "message": "Frontend Examples",
-    "description": "The label of footer link with label=前端示例 linking to https://example.disnox.cn"
+    "description": "The label of footer link with label=前端示例 linking to https://example.kuizuo.cn"
   },
   "link.item.label.关于我": {
     "message": "About Me",
@@ -37,7 +41,7 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/disnox"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/kuizuo"
   },
   "link.item.label.掘金": {
     "message": "Juejin",
@@ -53,10 +57,10 @@
   },
   "link.item.label.导航": {
     "message": "Links",
-    "description": "The label of footer link with label=导航 linking to website"
+    "description": "The label of footer link with label=导航 linking to resource"
   },
   "copyright": {
-    "message": "<p><a href=\"http://beian.miit.gov.cn/\" >闽ICP备2020017848号-2</a></p><p>Copyright © 2020 – PRESENT disnox Built with Docusaurus.</p>",
+    "message": "<p><a href=\"http://beian.miit.gov.cn/\" >闽ICP备2020017848号-2</a></p><p>Copyright © 2020 – PRESENT kuizuo Built with Docusaurus.</p>",
     "description": "The footer copyright"
   }
 }

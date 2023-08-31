@@ -1,109 +1,192 @@
 export const projects: Project[] = [
   {
-    title: '项目集',
-    description: '我的项目集合，涵盖了大学期间所做的项目',
-    preview: '/img/blog/xmu.png',
-    website: 'https://kdocs.cn/l/cqH6nnUP94mm',
-    source: 'https://kdocs.cn/l/cqH6nnUP94mm',
+    title: '愧怍的小站',
+    description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
+    preview: '/img/project/blog.png',
+    website: 'https://kuizuo.cn',
+    source: 'https://github.com/kuizuo/blog',
     tags: ['opensource', 'design', 'favorite'],
-    type: '🤖Project',
+    type: 'web',
   },
   {
-    title: '客运购票系统',
-    description: '采用 Linux 内核链表搭建的C语言系统，满足大部分需求，学习使用',
-    preview: '/img/blog/kernel_list.png',
-    website: 'https://github.com/disnox/ticket_system',
-    source: 'https://github.com/disnox/ticket_system',
-    tags: ['opensource', 'design', 'favorite'],
-    type: '🤖Project',
+    title: 'nest-vben-admin',
+    description: '基于 NestJs + Vben Admin 编写的一款前后端分离的权限管理系统',
+    preview: '/img/project/nest-vben-admin.png',
+    website: 'https://admin.kuizuo.cn',
+    source: 'https://github.com/kuizuo/nest-vben-admin',
+    tags: ['opensource', 'favorite', 'product', 'large'],
+    type: 'web',
   },
   {
-    title: '自助点餐系统',
-    description: '基于 Linux 和 C语言 的自助点餐系统',
-    preview: '/img/blog/self.png',
-    website: 'https://github.com/disnox/self_service_order',
-    source: 'https://github.com/disnox/self_service_order',
-    tags: ['opensource', 'design', 'favorite'],
-    type: '🤖Project',
+    title: 'api-server',
+    description: '🔗 基于 Nuxt 搭建的API接口服务网站',
+    preview: '/img/project/kz-api.png',
+    website: 'https://api.kuizuo.cn',
+    source: 'https://github.com/kuizuo/api-service',
+    tags: ['opensource', 'favorite', 'product'],
+    type: 'web',
   },
   {
-    title: '文件服务器',
-    description: '基于 Linux网络编程 和 C语言 的文件服务器',
-    preview: '/img/blog/server.png',
-    website: 'https://github.com/disnox/file_server',
-    source: 'https://github.com/disnox/file_server',
-    tags: ['opensource', 'design', 'favorite'],
-    type: '🤖Project',
+    title: 'Protocol',
+    description: '🧪 一个用于快速复现请求协议的 Web 开发模板',
+    preview: '/img/project/protocol.png',
+    website: 'https://protocol.kuizuo.cn',
+    source: 'https://github.com/kuizuo/protocol',
+    tags: ['opensource', 'favorite'],
+    type: 'web',
   },
   {
-    title: 'STM32G431/474 核心板',
-    description: '基于 STM32G4 的最小系统，带LCD、RS485、CAN接口',
-    preview: '/img/blog/g431g474.png',
-    website: 'https://oshwhub.com/lylssy/g431-g474-zui-xiao-xi-tong',
-    source: 'https://github.com/disnox/disnox_g431',
-    tags: ['opensource', 'design', 'favorite'],
-    type: '🤖Project',
+    title: 'Chaoxing-sign',
+    description: '🌟 超星学习通在线签到',
+    preview: '/img/project/chaoxing-sign.png',
+    website: 'https://sign.kuizuo.cn',
+    source: 'https://github.com/kuizuo/chaoxing-sign',
+    tags: ['opensource', 'product'],
+    type: 'web',
   },
   {
-    title: '线程池示例（内核链表）',
-    description: '使用内核链表搭建的线程池示例',
-    website: 'https://www.disnox.top/thread_pool2',
-    source: 'https://github.com/disnox/thread_pool',
-    tags: ['opensource', 'design', 'favorite'],
-    type: '🌊Example',
+    title: 'Hoppx',
+    description: '👽 仿 Hoppscotch 风格的网站模板',
+    preview: '/img/project/hoppx.png',
+    website: 'https://hoppx.vercel.app',
+    source: 'https://github.com/kuizuo/hoppx',
+    tags: ['opensource'],
+    type: 'web',
   },
   {
-    title: '线程池示例（单向链表）',
-    description: '使用单向链表搭建的线程池示例',
-    website: 'https://www.disnox.top/thread_pool1',
-    source: 'https://github.com/disnox/pool',
-    tags: ['opensource', 'design', 'favorite'],
-    type: '🌊Example',
+    title: 'Link Maker',
+    description: '🍋 一个用于将链接转换为卡片样式的预览网站',
+    preview: '/img/project/link-maker.png',
+    website: 'https://link-maker.deno.dev',
+    source: 'https://github.com/kuizuo/link-maker',
+    tags: ['opensource'],
+    type: 'web',
   },
   {
-    title: '尚宇的小站',
-    description: '（强烈推荐）参考愧怍的开源项目实现的个人博客（基于Docusaurus v2 静态网站生成器）',
-    preview: '/img/blog/blog.png',
-    website: 'https://disnox.top',
-    source: 'https://github.com/disnox/disnox_blog',
-    tags: ['opensource', 'design', 'favorite'],
-    type: '📷Copy',
+    title: 'Image Hosting',
+    description: '🖼️ 使用 Supabase 搭建一个简易图床',
+    preview: '/img/project/image-hosting.png',
+    website: 'https://image.kuizuo.cn',
+    source: 'https://github.com/kuizuo/image-hosting',
+    tags: ['opensource'],
+    type: 'web',
+  },
+  {
+    title: '前端示例代码库',
+    description:
+      '📦 整理前端样式和功能的实现代码，可以用来寻找灵感或直接使用示例中的代码',
+    preview: '/img/project/example-website.png',
+    website: 'https://example.kuizuo.cn',
+    source: 'https://github.com/kuizuo/example',
+    tags: ['opensource', 'design'],
+    type: 'web',
+  },
+  {
+    title: 'Vitesse Nuxt3 Strapi',
+    description: '一个 Vitesse Nuxt3 Strapi 的模板，灵感来源 Vitesse',
+    preview: '/img/project/vitesse-nuxt3-strapi.png',
+    website: 'https://vitesse-nuxt3-strapi.vercel.app',
+    source: 'https://github.com/kuizuo/vitesse-nuxt3-strapi',
+    tags: ['opensource'],
+    type: 'web',
+  },
+  {
+    title: 'JS代码混淆与还原',
+    description: '基于Babel的AST操作对JavaScript代码混淆与还原的网站',
+    preview: '/img/project/js-de-obfuscator.png',
+    website: 'https://deobfuscator.vercel.app',
+    source: 'https://github.com/kuizuo/js-de-obfuscator',
+    tags: ['opensource'],
+    type: 'web',
+  },
+  {
+    title: 'VScode-extension',
+    description: 'vscode 插件的样品',
+    preview: '/img/project/vscode-extension.png',
+    website:
+      'https://marketplace.visualstudio.com/items?itemName=kuizuo.vscode-extension-sample',
+    source: 'https://github.com/kuizuo/vscode-extension',
+    tags: ['opensource'],
+    type: 'web',
+  },
+  // {
+  //   title: 'link-admin',
+  //   description: '基于 nest-vben-admin 编写的一次性充值链接销售系统',
+  //   preview: '/img/project/link-admin.png',
+  //   website: 'http://link.kuizuo.cn',
+  //   tags: ['product', 'large'],
+  //   type: 'other',
+  // },
+  // {
+  //   title: 'ocr-admin',
+  //   description: '基于 ddddocr 与 nest-vben-admin 搭建的图像识别后台系统',
+  //   preview: '/img/project/ocr-admin.png',
+  //   website: 'http://ocr.kuizuo.cn',
+  //   tags: ['product', 'large'],
+  //   type: 'other',
+  // },
+  {
+    title: '@kuizuo/http',
+    description: '基于 Axios 封装的 HTTP 类库',
+    website: 'https://www.npmjs.com/package/@kuizuo/http',
+    tags: ['opensource', 'personal'],
+    type: 'personal',
+  },
+  {
+    title: '@kuizuo/utils',
+    description: '整理 JavaScript / TypeScript 的相关工具函数',
+    website: 'https://www.npmjs.com/package/@kuizuo/utils',
+    tags: ['opensource', 'personal'],
+    type: 'personal',
+  },
+  {
+    title: '@kuizuo/eslint-config',
+    description: '来自 antfu 的 ESLint 配置文件',
+    website: 'https://github.com/kuizuo/eslint-config',
+    tags: ['opensource', 'personal'],
+    type: 'personal',
+  },
+  {
+    title: 'browser-rpc',
+    description: 'WebSocket 远程调用浏览器函数',
+    website: 'https://github.com/kuizuo/rpc-browser',
+    tags: ['opensource'],
+    type: 'personal',
+  },
+  {
+    title: 'rust-wasm-md5',
+    description: '🦀 Rust + WebAssembly 实现的 MD5 加密',
+    website: 'https://github.com/kuizuo/rust-wasm-md5',
+    tags: ['opensource'],
+    type: 'personal',
   },
 ]
 
 export type Tag = {
-  label: string;
-  description: string;
-  color: string;
-};
+  label: string
+  description: string
+  color: string
+}
 
 export type TagType =
   | 'favorite'
   | 'opensource'
   | 'product'
   | 'design'
-  | 'javascript'
-  | 'personal';
+  | 'large'
+  | 'personal'
 
-export type ProjectType =
-  | '💻Linux'
-  | '🧠Personal'
-  | '🤖Project'
-  | '🌊Example'
-  | 'Web'
-  | '📷Copy'
-  | 'App'
-  | 'Other';
+export type ProjectType = 'personal' | 'web' | 'app' | 'toy' | 'other'
 
 export type Project = {
-  title: string;
-  description: string;
-  preview?: any;
-  website: string;
-  source?: string | null;
-  tags: TagType[];
+  title: string
+  description: string
+  preview?: any
+  website: string
+  source?: string | null
+  tags: TagType[]
   type: ProjectType
-};
+}
 
 export const Tags: Record<TagType, Tag> = {
   favorite: {
@@ -126,26 +209,23 @@ export const Tags: Record<TagType, Tag> = {
     description: '设计漂亮的网站!',
     color: '#a44fb7',
   },
-  javascript: {
-    label: 'JavaScript',
-    description: 'JavaScript 项目',
-    color: '#dfd545',
+  large: {
+    label: '大型',
+    description: '大型项目，原多于平均数的页面',
+    color: '#8c2f00',
   },
   personal: {
     label: '个人',
     description: '个人项目',
     color: '#12affa',
   },
-};
+}
 
-export const TagList = Object.keys(Tags) as TagType[];
+export const TagList = Object.keys(Tags) as TagType[]
 
 export const groupByProjects = projects.reduce((group, project) => {
-  const { type } = project;
-  group[type] = group[type] ?? [];
-  group[type].push(project);
-  return group;
-},
-  {} as Record<ProjectType, Project[]>
-)
-
+  const { type } = project
+  group[type] = group[type] ?? []
+  group[type].push(project)
+  return group
+}, {} as Record<ProjectType, Project[]>)

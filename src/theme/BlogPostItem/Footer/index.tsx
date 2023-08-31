@@ -1,17 +1,17 @@
-import React from 'react';
-import clsx from 'clsx';
-import { useBlogPost } from '@docusaurus/theme-common/internal';
-import EditThisPage from '@theme/EditThisPage';
-import TagsListInline from '@theme/TagsListInline';
-import Tag from '@theme/Tag';
-import ReadMoreLink from '@theme/BlogPostItem/Footer/ReadMoreLink';
+import React from 'react'
+import clsx from 'clsx'
+import { useBlogPost } from '@docusaurus/theme-common/internal'
+import EditThisPage from '@theme/EditThisPage'
+import TagsListInline from '@theme/TagsListInline'
+import Tag from '@theme/Tag'
+import ReadMoreLink from '@theme/BlogPostItem/Footer/ReadMoreLink'
 import { Icon } from '@iconify/react'
-import { ReadingTime } from '../Header/Info/index';
+import { ReadingTime } from '../Header/Info/index'
 
-import styles from './styles.module.css';
+import styles from './styles.module.scss'
 
 export default function BlogPostItemFooter(): JSX.Element | null {
-  const { metadata, isBlogPostPage } = useBlogPost();
+  const { metadata, isBlogPostPage } = useBlogPost()
   const {
     tags,
     title,
@@ -21,25 +21,24 @@ export default function BlogPostItemFooter(): JSX.Element | null {
     formattedDate,
     readingTime,
     authors,
-  } = metadata;
+  } = metadata
 
   // A post is truncated if it's in the "list view" and it has a truncate marker
-  const truncatedPost = !isBlogPostPage && hasTruncateMarker;
+  const truncatedPost = !isBlogPostPage && hasTruncateMarker
 
-  const tagsExists = tags.length > 0;
-  const authorsExists = authors.length > 0;
+  const tagsExists = tags.length > 0
+  const authorsExists = authors.length > 0
 
-  const renderFooter = isBlogPostPage;
+  const renderFooter = isBlogPostPage
 
   if (!renderFooter) {
     return (
       <>
-        <hr className={styles.divider} />
         <div className={styles.blogPostInfo}>
-          {authorsExists && (
+          {/* {authorsExists && (
             <>
-              <Icon icon='ri:user-fill' color='#c4d3e0' />
-              {authors.map((a) => (
+              <Icon icon="ri:user-fill" color="#9ca3af" />
+              {authors.map(a => (
                 <span key={a.url} className="blog__author">
                   <a href={a.url} className={styles.blogPostAuthor}>
                     {a.name}
@@ -47,21 +46,22 @@ export default function BlogPostItemFooter(): JSX.Element | null {
                 </span>
               ))}
             </>
-          )}
+          )} */}
           {date && (
             <>
-              <Icon icon='ri:calendar-fill' color='#c4d3e0' />
+              <Icon icon="ri:calendar-fill" color="#9ca3af" />
               <time
                 dateTime={date}
                 className={styles.blogPostDate}
-                itemProp="datePublished">
+                itemProp="datePublished"
+              >
                 {formattedDate}
               </time>
             </>
           )}
           {tagsExists && (
             <>
-              <Icon icon='ri:price-tag-3-fill' color='#c4d3e0' />
+              <Icon icon="ri:price-tag-3-fill" color="#9ca3af" />
               <span className={styles.blogPostInfoTags}>
                 {tags.map(({ label, permalink: tagPermalink }) => (
                   <Tag
@@ -75,16 +75,26 @@ export default function BlogPostItemFooter(): JSX.Element | null {
           )}
           {readingTime && (
             <>
-              <Icon icon='ri:time-fill' color='#c4d3e0' />
+              <Icon icon="ri:time-fill" color="#9ca3af" />
               <span
-                className={clsx(styles.blogPostReadTime, 'blog__readingTime')}>
+                className={clsx(styles.blogPostReadTime, 'blog__readingTime')}
+              >
                 <ReadingTime readingTime={readingTime} />
               </span>
             </>
           )}
+          {truncatedPost && (
+            <div
+              className={clsx(styles.readMore, {
+                'col--3': tagsExists,
+              })}
+            >
+              <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
+            </div>
+          )}
         </div>
       </>
-    );
+    )
   }
 
   return (
@@ -92,27 +102,29 @@ export default function BlogPostItemFooter(): JSX.Element | null {
       className={clsx(
         'row docusaurus-mt-lg',
         isBlogPostPage && styles.blogPostFooterDetailsFull,
-      )}>
+      )}
+    >
       {tagsExists && (
         <div className={clsx('col', { 'col--9': truncatedPost })}>
           <TagsListInline tags={tags} />
         </div>
       )}
 
-      {isBlogPostPage && editUrl && (
+      {/* {isBlogPostPage && editUrl && (
         <div className="col margin-top--sm">
           <EditThisPage editUrl={editUrl} />
         </div>
-      )}
+      )} */}
 
       {truncatedPost && (
         <div
           className={clsx('col text--right', {
             'col--3': tagsExists,
-          })}>
+          })}
+        >
           <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
         </div>
       )}
     </footer>
-  );
+  )
 }

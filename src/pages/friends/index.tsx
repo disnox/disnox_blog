@@ -1,15 +1,31 @@
-import React from 'react';
-import Layout from '@theme/Layout';
+import React from 'react'
+import Layout from '@theme/Layout'
+import CodeBlock from '@theme/CodeBlock'
 
-import FriendCard from './_components/FriendCard';
-import {Friends, type Friend} from '@site/data/friend';
+import FriendCard from './_components/FriendCard'
+import { Friends } from '@site/data/friend'
 
-import styles from './styles.module.css';
+import styles from './styles.module.css'
+import { motion } from 'framer-motion'
 
-const TITLE = '友情链接';
-const DESCRIPTION = '申请友链请点击下方申请，熟人可直接找我~';
-const ADD_FRIEND_URL =
-  'https://github.com/disnox/blog/edit/main/src/data/friend.ts';
+const TITLE = '友链'
+const DESCRIPTION = '有很多良友，胜于有很多财富。'
+const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friend.ts'
+
+function SiteInfo() {
+  return (
+    <div className={styles.siteInfo}>
+      <CodeBlock language="jsx">
+        {`{
+  // 本站信息
+  title: '愧怍的小站',
+  description: '道阻且长，行则将至',
+  avatar: 'https://kuizuo.cn/img/logo.png'
+}`}
+      </CodeBlock>
+    </div>
+  )
+}
 
 function FriendHeader() {
   return (
@@ -20,37 +36,42 @@ function FriendHeader() {
         className="button button--primary"
         href={ADD_FRIEND_URL}
         target="_blank"
-        rel="noreferrer">
-        申请友链
+        rel="noreferrer"
+      >
+        🔗 申请友链
       </a>
     </section>
-  );
+  )
 }
 
 function FriendCards() {
   const friends = Friends
+
   return (
     <section className="margin-top--lg margin-bottom--lg">
-      <div className="container">
-        <ul className={styles.showcaseList}>
-          {friends.map((friend) => (
-            <FriendCard key={friend.title} friend={friend} />
+      <div className={styles.friendContainer}>
+        <ul className={styles.friendList}>
+          {friends.map(friend => (
+            <FriendCard key={friend.avatar} friend={friend} />
           ))}
         </ul>
       </div>
     </section>
-  );
+  )
 }
 
-function FriendLink(): JSX.Element {
+export default function FriendLink(): JSX.Element {
+  const ref = React.useRef<HTMLDivElement>(null)
+
   return (
     <Layout title={TITLE} description={DESCRIPTION}>
-      <main className="margin-vert--lg">
+      <motion.main ref={ref} className="margin-vert--md">
         <FriendHeader />
         <FriendCards />
-      </main>
+        <motion.div drag dragConstraints={ref} className={styles.dragBox}>
+          <SiteInfo />
+        </motion.div>
+      </motion.main>
     </Layout>
-  );
+  )
 }
-
-export default FriendLink;
