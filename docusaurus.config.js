@@ -2,7 +2,7 @@ const path = require('path')
 const beian = 'CC BY-NC 4.0'
 
 // const announcementBarContent = ''
-const announcementBarContent = `<span>🌟新入站必读 <a href='/test'>小站使用指南🌟</a></span>`
+// const announcementBarContent = `<span>🌟新入站必读 <a href='/test'>🌟</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -16,10 +16,10 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
-    announcementBar: {
-      id: 'announcementBar-3',
-      content: announcementBarContent,
-    },
+    // announcementBar: {
+    //   id: 'announcementBar-3',
+    //   content: announcementBarContent,
+    // },
     metadata: [
       {
         name: 'keywords',
@@ -47,34 +47,34 @@ const config = {
       },
       hideOnScroll: true,
       items: [
-        {
-          label: '📝学习',
-          position: 'right',
-          items: [
-            {
-              label: '📑技术笔记',
-              to: 'docs/skill/',
-            },
-            {
-              label: '🗂️项目介绍',
-              to: 'docs/project_group/',
-            },
-            {
-              label: '📂高效工作指南',
-              to: 'docs/tools/',
-            },
-          ],
-        },
+        // {
+        //   label: '📝学习',
+        //   position: 'right',
+        //   items: [
+        //     {
+        //       label: '📑技术笔记',
+        //       to: 'docs/skill/',
+        //     },
+        //     {
+        //       label: '🗂️项目介绍',
+        //       to: 'docs/project_group/',
+        //     },
+        //     {
+        //       label: '📂高效工作指南',
+        //       to: 'docs/tools/',
+        //     },
+        //   ],
+        // },
         {
           label: '📘博客',
           position: 'right',
           to: 'blog',
         },
-        {
-          label: '🤖项目',
-          position: 'right',
-          to: 'project',
-        },
+        // {
+        //   label: '🤖项目',
+        //   position: 'right',
+        //   to: 'project',
+        // },
         {
           label: '更多',
           position: 'right',

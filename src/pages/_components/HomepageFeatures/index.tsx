@@ -4,9 +4,9 @@ import Translate, { translate } from '@docusaurus/Translate'
 
 import styles from './styles.module.scss'
 
-import WebDeveloperSvg from '@site/static/svg/undraw_web_developer.svg'
-import OpenSourceSvg from '@site/static/svg/undraw_open_source.svg'
-import SpiderSvg from '@site/static/svg/undraw_spider.svg'
+import WebDeveloperSvg from '@site/static/svg/1.svg'
+import OpenSourceSvg from '@site/static/svg/2.svg'
+import SpiderSvg from '@site/static/svg/3.svg'
 import SectionTitle from '../SectionTitle'
 
 type FeatureItem = {
@@ -19,7 +19,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.developer',
-      message: 'TypeScript 全栈工程师',
+      message: '嵌入式软硬兼施攻城狮',
     }),
     Svg: WebDeveloperSvg,
     description: (
@@ -44,7 +44,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.enthusiast',
-      message: '开源爱好者',
+      message: '机器人爱好者',
     }),
     Svg: OpenSourceSvg,
     description: (
