@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 
 const TITLE = '友链'
 const DESCRIPTION = '有很多良友，胜于有很多财富。'
-const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friend.ts'
+const ADD_FRIEND_URL = 'https://github.com/disnox/disnox_blog/edit/main/data/friend.ts'
 
 function SiteInfo() {
   return (
@@ -18,9 +18,9 @@ function SiteInfo() {
       <CodeBlock language="jsx">
         {`{
   // 本站信息
-  title: '愧怍的小站',
-  description: '道阻且长，行则将至',
-  avatar: 'https://kuizuo.cn/img/logo.png'
+  title: '尚宇的小站',
+  description: '星海横流，岁月成碑',
+  avatar: 'https://disnox.top/img/logo.png'
 }`}
       </CodeBlock>
     </div>

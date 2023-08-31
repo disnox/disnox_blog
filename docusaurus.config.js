@@ -1,36 +1,37 @@
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = 'CC BY-NC 4.0'
 
-const announcementBarContent = ''
+// const announcementBarContent = ''
+const announcementBarContent = `<span>🌟新入站必读 <a href='/test'>小站使用指南🌟</a></span>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
-  url: 'https://kuizuo.cn',
+  title: '尚宇的小站',
+  url: 'https://disnox.top',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'disnox',
   projectName: 'blog',
-  tagline: '道阻且长，行则将至',
+  tagline: '星海横流，岁月成碑',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
-    // announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: announcementBarContent,
-    // },
+    announcementBar: {
+      id: 'announcementBar-3',
+      content: announcementBarContent,
+    },
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍, kuizuo',
+        content: '尚宇, disnox',
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'blog, C/C++, STM32, Linux, qt, simulink, AD',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
+        content: '嵌入式软硬兼狮, C语言, STM32, Linux, qt，simulink, AD',
       },
     ],
     docs: {
@@ -40,19 +41,37 @@ const config = {
     },
     navbar: {
       logo: {
-        alt: '愧怍',
+        alt: '尚宇',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
       hideOnScroll: true,
       items: [
         {
-          label: '博客',
+          label: '📝学习',
+          position: 'right',
+          items: [
+            {
+              label: '📑技术笔记',
+              to: 'docs/skill/',
+            },
+            {
+              label: '🗂️项目介绍',
+              to: 'docs/project_group/',
+            },
+            {
+              label: '📂高效工作指南',
+              to: 'docs/tools/',
+            },
+          ],
+        },
+        {
+          label: '📘博客',
           position: 'right',
           to: 'blog',
         },
         {
-          label: '项目',
+          label: '🤖项目',
           position: 'right',
           to: 'project',
         },
@@ -82,10 +101,10 @@ const config = {
             },
           ],
         },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -110,10 +129,6 @@ const config = {
               label: '实战项目',
               to: 'project',
             },
-            {
-              label: '前端示例',
-              to: 'https://example.kuizuo.cn',
-            },
           ],
         },
         {
@@ -125,19 +140,19 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
+              href: 'https://github.com/disnox',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/kuizuo',
+              label: 'bilbil',
+              href: 'https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0',
             },
             {
-              label: '掘金',
-              href: 'https://juejin.cn/user/1565318510545901',
+              label: 'CSDN',
+              href: 'https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343',
             },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/M8cVcjDxkz',
+              label: '知乎',
+              href: 'https://www.zhihu.com/people/chui-zi-26-38',
             },
           ],
         },
@@ -154,18 +169,14 @@ const config = {
               position: 'right',
               to: 'resource',
             },
-            // {
-            //   label: '我的站点',
-            //   position: 'right',
-            //   to: 'website',
-            // },
             {
               html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
             },
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      // copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      copyright: `本站所有内容遵循<a href="https://creativecommons.org/licenses/by/4.0/deed.zh" >${beian}</a>开源协议，仅限非商业性使用，转载请注明出处</p><p>Copyright © 2022 - PRESENT 尚宇 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -189,9 +200,9 @@ const config = {
       maxHeadingLevel: 4,
     },
     algolia: {
-      appId: 'GV6YN1ODMO',
-      apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      appId: ' ',
+      apiKey: ' ',
+      indexName: 'disnox',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
@@ -202,10 +213,10 @@ const config = {
       config: {},
     },
     giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      repo: 'disnox/disnox_blog',
+      repoId: 'R_kgDOIS7BTg',
       category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      categoryId: 'DIC_kwDOIS7BTs4CSN3O',
       theme: 'light',
       darkTheme: 'dark',
     },
@@ -213,14 +224,13 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
-      twitter: 'https://twitter.com/kuizuo',
-      juejin: 'https://juejin.cn/user/1565318510545901',
-      csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      zhihu: 'https://www.zhihu.com/people/kuizuo',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-      mail: 'mailto:hi@kuizuo.cn',
+      github: 'https://github.com/disnox',
+      blibli: 'https://space.bilibili.com/511798206?spm_id_from=333.1007.0.0',
+      zhihu: 'https://www.zhihu.com/people/chui-zi-26-38',
+      csdn: 'https://blog.csdn.net/m0_47339333?spm=1000.2115.3001.5343',
+      qq: 'https://www.helloimg.com/image/ZV1U6u',
+      wx: 'http://n0i.cn/1DmzeU',
+      cloudmusic: 'https://music.163.com/#/user/home?id=3906202648',
     },
   },
   headTags: [
@@ -228,7 +238,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: '尚宇的个人博客',
       },
     },
   ],
@@ -267,9 +277,9 @@ const config = {
       {
         path: 'blog',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/disnox/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '愧怍的个人博客',
+        blogDescription: '尚宇的个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: 'Blogs',
         postsPerPage: 10,
@@ -278,8 +288,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '尚宇',
+          copyright: `Copyright © ${new Date().getFullYear()} 尚宇 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],

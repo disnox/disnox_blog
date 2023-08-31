@@ -3,6 +3,9 @@ import { useThemeConfig } from '@docusaurus/theme-common'
 import { ThemeConfig } from '@docusaurus/preset-classic'
 import { Icon } from '@iconify/react'
 import JuejinIcon from '@site/static/svg/juejin.svg'
+import BilBilIcon from '@site/static/svg/bilbil.svg'
+import WxIcon from '@site/static/svg/wx.svg'
+import CsdnIcon from '@site/static/svg/csdn.svg'
 
 import styles from './styles.module.scss'
 
@@ -34,21 +37,22 @@ export default function SocialLinks({ ...prop }) {
     cloudmusic: string
     zhihu: string
     email: string
+    bilbil: string
   }
 
   return (
     <div className={styles.social__links} {...prop}>
       <SocialLink href={socials.github} icon="ri:github-line" />
-      <SocialLink href={socials.juejin} icon={<JuejinIcon />} />
-      <SocialLink href={socials.twitter} icon="ri:twitter-line" />
-      <SocialLink href={socials.qq} icon="ri:qq-line" />
+      <SocialLink href={socials.bilbil} icon={<BilBilIcon />} />
       <SocialLink href={socials.zhihu} icon="ri:zhihu-line" />
+      <SocialLink href={socials.csdn} icon={<CsdnIcon />} />
+      <SocialLink href={socials.qq} icon="ri:qq-line" />
+      <SocialLink href={socials.wx} icon={<WxIcon />} />
       <SocialLink href={socials.email} icon="ri:mail-line" />
       <SocialLink
         href={socials.cloudmusic}
         icon="ri:netease-cloud-music-line"
       />
-      <SocialLink href="/rss.xml" icon="ri:rss-line" />
     </div>
   )
 }
