@@ -202,13 +202,13 @@ const sidebars = {
   project_group: [
     'project_group/introduction',
     {
-      label: 'Robot',
+      label: '电机控制',
       type: 'category',
       link: {
         type: 'generated-index',
       },
       items: [
-        'project_group/robot/oxdriver',
+        'project_group/motor_ctrl/AxDrive-L',
       ],
   },
   ],
