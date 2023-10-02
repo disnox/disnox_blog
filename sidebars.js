@@ -217,6 +217,8 @@ const sidebars = {
           items: [
             'project_group/motor_ctrl/AxDrive-L/AxDrive-L_user_manual',
             'project_group/motor_ctrl/AxDrive-L/AxDrive-L_hardware_design_report',
+            'project_group/motor_ctrl/AxDrive-L/AxDrive-L_software_design_report',
+            
           ]
         },
       ],

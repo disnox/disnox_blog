@@ -1,7 +1,7 @@
 ---
-id: AxDrive-L_software_design_report
-slug: /AxDrive-L_software_design_report
-title: Axdrive-L 软件设计报告
+id: AxDrive-L_hardware_design_report
+slug: /AxDrive-L_hardware_design_report
+title: Axdrive-L 硬件设计报告
 date: 2023-10-02
 authors: disnox
 tags: [ST, FOC, 电机]
