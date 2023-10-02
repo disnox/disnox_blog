@@ -1,14 +1,12 @@
 ---
-id: AxDrive-L
-slug: /AxDrive-L
-title: Axdrive-L 手册
-date: 2023-09-18
+id: AxDrive-L_hardware_design_report
+slug: /AxDrive-L_hardware_design_report
+title: Axdrive-L 硬件设计报告
+date: 2023-10-02
 authors: disnox
 tags: [ST, FOC, 电机]
 keywords: [ST, FOC, 电机]
 ---
-
-Axdrive-L 手册
 
 <!-- truncate -->
 

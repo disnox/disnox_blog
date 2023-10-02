@@ -208,7 +208,17 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-        'project_group/motor_ctrl/AxDrive-L',
+        {
+          label: 'AxDrive-L',
+          type: 'category',
+          link: {
+          type: 'generated-index',
+          },
+          items: [
+            'project_group/motor_ctrl/AxDrive-L/AxDrive-L_user_manual',
+            'project_group/motor_ctrl/AxDrive-L/AxDrive-L_hardware_design_report',
+          ]
+        },
       ],
   },
   ],
