@@ -159,11 +159,20 @@ const sidebars = {
           type: 'generated-index',
           },
           items: [
-
               ]        
          },
       ]
     },
+    {
+      label: '电机控制',
+      type: 'category',
+      link: {
+      type: 'generated-index',
+      },
+      items: [
+          'skill/motor/pmsm/pmsm_motor',
+          ]        
+     },
     {
       label: '杂项',
       type: 'category',
@@ -184,20 +193,6 @@ const sidebars = {
     'tools/windows-custom-right-click-menu',
     'tools/windows-terminal-beautify',
     'tools/vscode-config',
-  ],
-  diary: [
-    'diary/introduction',
-    {
-      label: 'Linux',
-      type: 'category',
-      link: {
-        type: 'generated-index',
-      },
-      items: [
-        'skill/linux/Linux_introduction',
-        'skill/linux/Linux_shell',
-      ],
-  },
   ],
   project_group: [
     'project_group/introduction',

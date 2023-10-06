@@ -10,7 +10,7 @@
     "url": "https://github.com/disnox/blog",
     "type": "git"
   },
-  "homepage": "https://disnox.cn",
+  "homepage": "https://disnox.top",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
@@ -43,12 +43,15 @@
     "docusaurus-plugin-image-zoom": "^0.1.4",
     "docusaurus-plugin-sass": "^0.2.5",
     "framer-motion": "^10.13.1",
+    "hast-util-is-element": "1.1.0",
     "loadsh": "^0.0.4",
     "ora": "^5.4.1",
     "raw-loader": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-popper": "^2.3.0",
+    "rehype-katex": "6",
+    "remark-math": "5",
     "sass": "^1.64.1"
   },
   "devDependencies": {
