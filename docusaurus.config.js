@@ -85,10 +85,6 @@ module.exports = async function createConfigAsync() {
                 to: 'blog/archive',
               },
               {
-                label: '笔记',
-                to: 'docs/skill/',
-              },
-              {
                 label: '资源',
                 to: 'resource',
               },
